@@ -1,7 +1,7 @@
 nav {
     background-color: red;
     width: 100%;
-    min-height: 4rem;
+    min-height: 5rem;
 }
 
 header {
@@ -14,5 +14,35 @@ header figure {
 
 header figure > img {
     width: 100%;
-    height: 43rem;
+    height: 44rem;
+}
+
+#about-us{
+    background-color: green;
+    width: 100%;
+    height: 44rem;
+}
+
+#services{
+    background-color: yellow;
+    width: 100%;
+    height: 44rem;
+}
+
+aside{
+    background-color: grey;
+    width: 100%;
+    height: 44rem;
+}
+
+#contact-us{
+    background-color: blue;
+    width: 100%;
+    height: 44rem;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 15rem;
 }
