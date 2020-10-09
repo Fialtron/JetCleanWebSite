@@ -1,7 +1,7 @@
 nav {
     background-color: red;
     width: 100%;
-    min-height: 5rem;
+    height: 5rem;
     position: fixed;
     z-index: 99;
 }
