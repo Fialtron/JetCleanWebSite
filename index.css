@@ -29,7 +29,7 @@ header figure > img {
 #services{
     background-color: yellow;
     width: 100%;
-    height: 44rem;
+    padding: 2rem;
 }
 
 aside{
@@ -53,10 +53,42 @@ footer {
 .informacion{
     background-color: white;
     width: 70%;
-    height: 35rem;
+    height: 40rem;
     position: relative;
     margin: auto;
     top: -3rem;
     
+}
 
+figure{
+    margin: 0%;
+}
+
+ul{
+    background-color: blue;
+    width: 50%;
+    margin: auto;
+}
+
+ul li {
+    position: relative;
+    margin-top: 2rem ;
+    margin-bottom: 2rem;
+}
+
+ul li figure{
+    background-color: cyan;
+    width: 60%;
+    height: 20rem;
+    position: relative;
+    z-index: 20;
+}
+
+ul li div{
+    background-color: whitesmoke;
+    width: 60%;
+    height: 10rem;
+    position: absolute;
+    z-index: 25;
+    left: 15rem;
 }
