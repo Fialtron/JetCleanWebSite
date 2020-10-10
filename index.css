@@ -1,7 +1,7 @@
 nav {
     background-color: red;
     width: 100%;
-    height: 5rem;
+    height: 10%;
     position: fixed;
     z-index: 99;
 }
@@ -38,14 +38,12 @@ section .informacion{
     
 }
 
-#services{
+section#services{
     background-color: yellow;
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
-
 
 ul{
     background-color: blue;
@@ -118,7 +116,30 @@ section#contact-us{
     background-color: blue;
     width: 100%;
     height: 44rem;
+    padding-top:2rem;
+    
+
 }
+
+section#contact-us div{
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    display: inline-block;
+    position: relative;
+ 
+}
+
+section#contact-us div:nth-child(1){
+    background-color: rgb(215, 255, 196);
+    width: 60%;
+    height: 35rem;
+    margin: 0rem 2rem 0rem 2rem;
+    float: right;
+    top: -20% ;
+}
+
 
 footer {
     background-color: black;
