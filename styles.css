@@ -1,32 +1,30 @@
 
 @font-face {
     font-family: "Open condensed";
-      src: url(/imgs/OpenSansCondensed-Light.ttf);
+      src: url(/fonts/OpenSansCondensed-Light.ttf);
 }
 
 @font-face {
     font-family: "Open condensed bold";
-      src: url(/imgs/OpenSansCondensed-Bold.ttf);
+      src: url(/fonts/OpenSansCondensed-Bold.ttf);
 }
 
 @font-face {
     font-family: "Open condensed italic ";
-      src: url(/imgs/OpenSansCondensed-LightItalic.ttf);
+      src: url(/fonts/OpenSansCondensed-LightItalic.ttf);
 }
 
 @font-face {
     font-family: "Squada";
-      src: url(/imgs/SquadaOne-Regular.ttf);
+      src: url(/fonts/SquadaOne-Regular.ttf);
 }
 
 body{
     font-family: Open condensed;
 }
 
-
 nav {
     background-color:  #F5C700;
-    opacity: 1;
     width: 100%;
     height: 10%;
     position: fixed;
@@ -34,18 +32,41 @@ nav {
     
 }
 
-nav ul {
+nav > figure {
+    display: none;
+}
+
+nav figure#logo {
+    display: inline;
+    background-color: #F5C700;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 48%;
+    padding: 1rem;
+    z-index: 70;
+    font-size: 2rem;
+}
+
+nav div figure{
+    display: none;
+}
+
+nav div ul {
+    background-color: gray;
     margin: auto;
- 
     width: 80%;
     height: 90%;
     position: relative;
     display: inline-block;
     left: 10%;
-  
-  
+    list-style-type:none;
+    padding: 0;
+    top: 0rem;
 }
-nav ul li{
+
+nav div ul li{
+    background-color: aqua;
     display: inline-block;
     margin-left: .5% ;
     margin-right: .5% ;
@@ -55,32 +76,27 @@ nav ul li{
   
 }
 
-nav ul li:hover{
+nav div ul li:hover{
     background-color:#A88900 ;
     color: white !important;
 }
 
-nav ul li:hover a{
+nav div ul li:hover a{
     color: white !important;
 }
 
 
-nav ul li a{
+nav div ul li a{
     color: black;
     text-decoration: none;
     font-size: 1.7rem;
 }
 
-nav ul li:nth-child(3){
+nav div ul li:nth-child(3){
     text-decoration: none;
     font-size: 1.5rem;
-    margin-left: 23%;
-    margin-right: auto;
-}
-
-nav ul li:nth-child(4){
-    text-decoration: none;
     float: right;
+    margin-right: auto;
 }
 
 
@@ -89,13 +105,13 @@ div#social{
     color: white;
     z-index: 100;
     border-radius: 2rem 2rem 0 0;
-
     width: 30%;
     position: fixed;
     bottom: 0%;
     left: 35%;
     
 }
+
 div#social div{
     position: relative;
     width: 70%;
@@ -119,7 +135,6 @@ div#social:hover{
 
 div#social div:nth-child(2){
     display: none;
- 
 }
 
 p{
@@ -130,3 +145,156 @@ p{
 figure{
     margin: 0%;
 }
+
+@media screen and (max-width: 1279px){
+ 
+    nav {
+        background-color:  red;
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        z-index: 99;
+      
+        
+    }
+
+    nav div ul {
+        top: .3rem;
+    }
+
+   
+}
+
+@media screen and (max-width: 950px){
+    nav {
+        background-color:  blue;
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        z-index: 99;
+        
+    }
+    nav div ul {
+        top: .5rem;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 767px){
+
+    nav {
+        background-color:  green;
+    }
+
+    nav > figure {
+        width: 10%;
+        height: 90%;
+        display: inline-block;
+        position: relative;
+        left: 5%;
+        cursor: pointer;
+    }
+
+    nav > figure span{
+        color: white;
+        position: relative;
+        top: 25%;
+        font-size: 2rem;
+    }
+
+    nav figure#logo{
+        position: absolute;
+        margin: 0%;
+        width: 40%;
+        left:35%;
+        top: 0%;
+        margin-top: .2rem;
+        padding: 0;
+
+    }
+
+    nav figure#logo span{
+        left: 40%;
+    }
+
+    nav div.menu_movil{
+        display: none;
+        width: 100%;
+        height: 30rem;
+        background-color: white;
+        position: relative;
+        top: -100%;
+        z-index: 80;
+    }
+    
+    nav div.menu_movil figure{
+        background-color: red;
+        width: 10%;
+        height: 10%;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        top: 5%;
+        left: 5%;
+    }
+
+    nav div.menu_movil figure > span{
+        position: relative;
+        top: 15%;
+        font-size: 2rem;
+        color: white;
+    }
+
+    nav div ul {
+        margin: auto;
+        width: 80%;
+        height: 50%;
+        padding-left: 10%;
+        position: relative;
+        top: 30%;
+        left: 5%;
+    }
+    
+    nav div ul li{
+        width: 90%;
+        background-color: #191DFF;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        margin-left: 0%;
+        margin-top: .5rem;
+        top:30%;
+        text-align: center;
+    }
+
+    nav div ul li:nth-child(3){
+        float: left;
+    }
+
+
+    div#social{
+        background-color: #191DFF;
+        color: white;
+        z-index: 100;
+        border-radius: 1rem 1rem 0 0;
+        width: 60%;
+        height: 3rem;
+        position: fixed;
+        bottom: 0%;
+        left: 23%;
+    }
+
+    div#social div{
+        position: relative;
+        width: 80%;
+        font-size: x-large;
+        left: 8%;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+
+
+}
+

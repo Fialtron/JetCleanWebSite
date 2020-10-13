@@ -5,26 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/fonts/style.css">
     <link rel="stylesheet" href="index.css">
     <script src="modernizr-custom.js"></script>
     <title>Inicio</title>
 </head>
 <body>
     <Nav>
-        <ul>
-            <li onclick="location.href='#';">
-                <a href="#">Nosotros</a>
-            </li>
-            <li onclick="location.href='#';">
-                <a href="#">Servicios</a>
-            </li>
-            <li onclick="location.href='#';">
-                <a href="#" >Logo</a>
-            </li>
-            <li onclick="location.href='#';">
-                <a href="#">Contactenos</a>
-            </li>
-        </ul>
+        <figure id="openMenu" onclick="displayMenu()">
+            <span class="icon-menu"></span>
+        </figure>
+
+        <figure id="logo">
+            <span class="icon-paint-format"></span>
+        </figure>
+
+        <div id="menu_movil" class="menu_movil">
+            <figure id="closeMenu"  onclick="displayMenu()">
+                <span class="icon-cross"></span>
+            </figure>
+
+            <ul>
+                <li onclick="location.href='#';">
+                    <a href="#">Nosotros</a>
+                </li>
+                <li onclick="location.href='#';">
+                    <a href="#">Servicios</a>
+                </li>
+                <li onclick="location.href='#';">
+                    <a href="#">Contactenos</a>
+                </li>
+            </ul>
+        </div>
     </Nav>
 
     <div id="social">
@@ -87,4 +99,6 @@
         </div>
     </footer>
 </body>
+
+    <script src="main.js"></script>
 </html>
