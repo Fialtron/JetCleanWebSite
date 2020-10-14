@@ -1,6 +1,8 @@
-alertSize();
-function alertSize() {
-    var myWidth = 0, myHeight = 0;
+app = (() => {
+
+  const alertSize = () => {
+    console.log("si funco");
+    let myWidth = 0, myHeight = 0;
     if( typeof( window.innerWidth ) == 'number' ) {
       //No-IE
       myWidth = window.innerWidth;
@@ -14,24 +16,32 @@ function alertSize() {
       myWidth = document.body.clientWidth;
       myHeight = document.body.clientHeight;
     }
-    var menu = document.getElementById("menu_movil");
-    var display = menu.style.display;
+    const menu = document.getElementById("menu_movil");
+    let display = menu.style.display;
 
     if(myWidth <= 767){
-        menu.style.display = 'none';
+      menu.style.display = 'none';
     }else{
-        menu.style.display = 'block';
+      menu.style.display = 'block';
     }
-    
-  } 
+
+  };
+
+  return {
+
+    init: () => alertSize(),
+    displayMenu(){
+      console.log("aqui ESTOY HIJUEPUTA");
+      const menu = document.getElementById("menu_movil");
+      let display = menu.style.display;
+      if (display == 'none') {
+           menu.style.display = 'block';
+      } else {
+          menu.style.display = 'none';
+      }
+   },
+
+  }
+})();
 
 
-function displayMenu(){
-   var menu = document.getElementById("menu_movil");
-   var display = menu.style.display;
-   if (display == 'none') {
-        menu.style.display = 'block';
-   } else {
-       menu.style.display = 'none';
-   }
-}

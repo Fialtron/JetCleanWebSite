@@ -1,26 +1,26 @@
 
 @font-face {
     font-family: "Open condensed";
-      src: url(/fonts/OpenSansCondensed-Light.ttf);
+      src: url(../fonts/OpenSansCondensed-Light.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Open condensed bold";
-      src: url(/fonts/OpenSansCondensed-Bold.ttf);
+      src: url(../fonts/OpenSansCondensed-Bold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Open condensed italic ";
-      src: url(/fonts/OpenSansCondensed-LightItalic.ttf);
+      src: url(../fonts/OpenSansCondensed-LightItalic.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "Squada";
-      src: url(/fonts/SquadaOne-Regular.ttf);
+      src: url(../fonts/SquadaOne-Regular.ttf) format("truetype");
 }
 
 body{
-    font-family: Open condensed;
+    font-family: Open condensed, serif;
 }
 
 nav {
@@ -128,7 +128,7 @@ div#social:hover{
 }
 
 /* div#social div:nth-child(1) > p:before{
-    content: url(/imgs/ring_volume-black-18dp.svg);
+    content: url(/img/ring_volume-black-18dp.svg);
     padding: 7%;
  
 } */
