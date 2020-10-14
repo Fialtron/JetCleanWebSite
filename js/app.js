@@ -1,7 +1,6 @@
 app = (() => {
 
   const alertSize = () => {
-    console.log("si funco");
     let myWidth = 0, myHeight = 0;
     if( typeof( window.innerWidth ) == 'number' ) {
       //No-IE
@@ -27,11 +26,66 @@ app = (() => {
 
   };
 
+  const insertMainSection = () => {
+    const style = $('#currentTransitionStyle');
+    style.empty();
+    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/index.css">`);
+    const content = $('#contenido');
+    content.empty();
+    content.append(`
+    <header>
+            <figure>
+                <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
+            </figure>
+        </header>
+        <section id="about-us">
+            <div class="informacion">
+
+            </div>
+        </section>
+        <section id="services">
+            <ul>
+                <li>
+                    <figure>
+                    </figure>
+                    <div></div>
+                </li>
+                <li>
+                    <div>
+                    </div>
+                    <figure>
+                    </figure>
+
+                </li>
+                <li>
+                    <figure >
+                    </figure>
+                    <div></div>
+                </li>
+            </ul>
+        </section>
+        <aside>
+            <figure>
+                <img src="img/supermarket-949913_1920.jpg" alt="">
+            </figure>
+        </aside>
+        <section id="contact-us">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    `);
+
+  };
+
   return {
 
-    init: () => alertSize(),
+    init: () => {
+      alertSize();
+      insertMainSection();
+      },
     displayMenu(){
-      console.log("aqui ESTOY HIJUEPUTA");
       const menu = document.getElementById("menu_movil");
       let display = menu.style.display;
       if (display == 'none') {
