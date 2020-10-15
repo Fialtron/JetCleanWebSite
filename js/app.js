@@ -79,12 +79,25 @@ app = (() => {
 
   };
 
+  const insertServicesSection = () => {
+    const style = $('#currentTransitionStyle');
+    style.empty();
+    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/services.css">`);
+    const content = $('#contenido');
+    content.empty();
+    content.append('<h1> Que paso perros jiijijijij putas </h1>');
+  };
+
   return {
 
     init: () => {
       alertSize();
       insertMainSection();
       },
+    services: () => {
+      alertSize();
+      insertServicesSection();
+    },  
     displayMenu(){
       const menu = document.getElementById("menu_movil");
       let display = menu.style.display;
@@ -94,8 +107,6 @@ app = (() => {
           menu.style.display = 'none';
       }
    },
-
   }
+  
 })();
-
-

@@ -24,7 +24,7 @@
             <span class="icon-menu"></span>
         </figure>
 
-        <figure id="logo">
+        <figure id="logo" onclick="app.init()">
             <span class="icon-paint-format"></span>
         </figure>
 
@@ -34,11 +34,11 @@
             </figure>
 
             <ul>
-                <li onclick="location.href='#';">
+                <li onclick="location.href='#';" >
                     <a href="#">Nosotros</a>
                 </li>
-                <li onclick="location.href='#';">
-                    <a href="#">Servicios</a>
+                <li onclick="app.services()">
+                    <a>Servicios</a>
                 </li>
                 <li onclick="location.href='#';">
                     <a href="#">Contactenos</a>
