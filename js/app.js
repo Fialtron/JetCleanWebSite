@@ -26,12 +26,16 @@ app = (() => {
 
   };
 
+  const cleanHTMLTags = (...tags) => {
+    tags.forEach( tag => tag.empty());
+
+  };
+
   const insertMainSection = () => {
     const style = $('#currentTransitionStyle');
-    style.empty();
-    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/index.css">`);
     const content = $('#contenido');
-    content.empty();
+    cleanHTMLTags(style, content);
+    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/index.css">`);
     content.append(`
         <header>
             <figure>
@@ -92,11 +96,18 @@ app = (() => {
 
   const insertServicesSection = () => {
     const style = $('#currentTransitionStyle');
-    style.empty();
-    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/services.css">`);
     const content = $('#contenido');
-    content.empty();
-    content.append('<h1> Que paso perros jiijijijij putas </h1>');
+    cleanHTMLTags(style, content);
+    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/services.css">`);
+    content.append('<h1> SERVICES </h1>');
+  };
+
+  const insertAboutUsSection = () => {
+    const style = $('#currentTransitionStyle');
+    const content = $('#contenido');
+    cleanHTMLTags(style, content);
+    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/description.css">`);
+    content.append('<h1> DESCRIPTION </h1>');
   };
 
   return {
@@ -105,10 +116,15 @@ app = (() => {
       alertSize();
       insertMainSection();
       },
-    services: () => {
+    displayServices: () => {
       alertSize();
       insertServicesSection();
-    },  
+    },
+    displayAboutUs:() => {
+      alertSize();
+      insertAboutUsSection();
+    },
+
     displayMenu(){
       const menu = document.getElementById("menu_movil");
       let display = menu.style.display;
