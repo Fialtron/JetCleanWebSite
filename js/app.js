@@ -33,14 +33,25 @@ app = (() => {
     const content = $('#contenido');
     content.empty();
     content.append(`
-    <header>
+        <header>
             <figure>
                 <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
+                <div>
+                  <h1>Jet Clean</h1>
+                  <h2>A new cleanning concept</h2>
+                  <h3>We are experts about cleanning </h3>
+                </div>
             </figure>
         </header>
         <section id="about-us">
             <div class="informacion">
-
+              <h2>Sobre nosotros</h2>
+              <div>Descripcion de lo que se hace</div>
+              <div>Valor 1</div>
+              <div>Valor 2 </div>
+              <div>Valor 3 </div>
+              <div>Valor 4</div>
+              <span>Ver mas</span>
             </div>
         </section>
         <section id="services">
