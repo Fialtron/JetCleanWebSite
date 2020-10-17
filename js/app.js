@@ -32,10 +32,9 @@ app = (() => {
   };
 
   const insertMainSection = () => {
-    const style = $('#currentTransitionStyle');
     const content = $('#contenido');
-    cleanHTMLTags(style, content);
-    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/index.css">`);
+    cleanHTMLTags(content);
+    document.getElementById("currentTransitionStyle").setAttribute("href", "css/index.css");
     content.append(`
         <header>
             <figure>
@@ -95,19 +94,83 @@ app = (() => {
   };
 
   const insertServicesSection = () => {
-    const style = $('#currentTransitionStyle');
     const content = $('#contenido');
-    cleanHTMLTags(style, content);
-    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/services.css">`);
-    content.append('<h1> SERVICES </h1>');
+    cleanHTMLTags(content);
+    document.getElementById("currentTransitionStyle").setAttribute("href", "css/services.css");
+    content.append(`
+     <header>
+        <figure>
+            <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
+            <div>
+                <h1>Jet Clean</h1>
+                <h2>A new cleanning concept</h2>
+                <h3>We are experts about cleanning </h3>
+            </div>
+        </figure>
+    </header>
+    `);
   };
 
   const insertAboutUsSection = () => {
-    const style = $('#currentTransitionStyle');
     const content = $('#contenido');
-    cleanHTMLTags(style, content);
-    style.append(`<link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/description.css">`);
-    content.append('<h1> DESCRIPTION </h1>');
+    document.getElementById("currentTransitionStyle").setAttribute("href", "css/aboutUs.css");
+    cleanHTMLTags(content);
+    content.append(`
+    <header>
+        <figure>
+            <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
+            <div>
+                <h1>Jet Clean</h1>
+                <h2>A new cleanning concept</h2>
+                <h3>We are experts about cleanning </h3>
+            </div>
+        </figure>
+    </header>
+    <div id="wrapper">
+        <div id="mainGrid">
+            <div id="banner" class="perfect-center">
+                <h3>JET CLEAN</h3>
+                <p>CLOSE YOUR EYES AND BREATH</p>
+            </div>
+            <div id="col1" class="col">
+            
+            </div>
+            <div id="about-us" class="perfect-center">
+                <h3>About Us</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, amet asperiores cupiditate ducimus eum nostrum placeat tempore. Consequatur minima non nostrum numquam placeat quibusdam repellendus velit voluptatem? Unde, vitae voluptatem.</p>
+            </div>
+            <figure id="about-us-pic">
+            
+            </figure>
+            <div id="col2" class="col"></div>
+            <div id="col3" class="col"></div>
+            <section id="testimonials">
+            <ul>
+                <li>
+                    <figure>
+                    </figure>
+                    <div></div>
+                </li>
+                <li>
+                    <div>
+                    </div>
+                    <figure>
+                    </figure>
+
+                </li>
+                <li>
+                    <figure >
+                    </figure>
+                    <div></div>
+                </li>
+            </ul>
+        </section>
+           
+        </div>
+        <div id="find-us">
+
+        </div>
+    </div>`);
   };
 
   return {

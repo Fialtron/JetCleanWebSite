@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d518254-fae9-4e95-b49d-249892ba29a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/description.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/aboutUs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +14,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Davor Cortes &lt;davorcortes.dc@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1isUwLQbsSPa1Opu7aJ1Yb6LVXe" />
@@ -28,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Noveno Semestre/ARSW/PROYECTO/MediaMeet-frontend" />
@@ -53,21 +59,46 @@
       <workItem from="1602703761460" duration="1494000" />
       <workItem from="1602781929970" duration="44000" />
       <workItem from="1602812750144" duration="3834000" />
+      <workItem from="1602880983090" duration="23013000" />
     </task>
+    <task id="LOCAL-00001" summary="Listos los espacios para las 3 transiciones">
+      <created>1602881203577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602881203577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Listos los espacios para las 3 transiciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listos los espacios para las 3 transiciones" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602700346321">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="474" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1602700346321" />
+    <state x="393" y="2" key="CommitChangelistDialog2" timestamp="1602881202922">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="393" y="2" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1602881202922" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1602781972391">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602781972391" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1602883763942">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1602883763942" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602883352776">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1602883352776" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -75,7 +106,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

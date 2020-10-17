@@ -1,0 +1,131 @@
+header {
+    height: 30%;
+    max-height: 45rem;
+    overflow: hidden;
+}
+
+header figure {
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+header figure img {
+    width: 100%;
+
+}
+
+header figure div {
+
+    position: relative;
+    top: -40rem;
+    font-family: Squada !important;
+    font-size: 2rem;
+    color: white;
+}
+header figure div h1{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: wavy;
+    margin: 0rem;
+    font-size: 7rem;
+
+}
+
+header figure div h2,h3{
+    margin-left: 3rem;
+}
+
+header figure div h2{
+    margin-bottom: 0rem;
+    font-size: 4rem;
+}
+
+header figure div h3{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+#mainGrid {
+    flex: 70%;
+    background: #000000;
+    padding: 10rem;
+}
+
+#find-us{
+    flex: 30%;
+    background: aqua;
+    padding: 10rem;
+}
+
+.perfect-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner{
+    position: relative;
+    margin: auto;
+    background: aliceblue;
+    flex-flow: column nowrap;
+    top: -12rem;
+    width: 60%;
+    height: 8rem;
+}
+
+#banner h3{
+    margin-left: 0;
+}
+
+#about-us {
+    position: relative;
+    background: aliceblue;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: 35rem;
+    left: 31rem;
+    top: -12rem;
+}
+
+#about-us-pic {
+    position: relative;
+    background: chartreuse;
+    width: 35%;
+    height: 35rem;
+    bottom: 47rem;
+    left: 4.75rem;
+}
+
+#banner h3{
+    margin-left: 0;
+}
+
+.col{
+    position: relative;
+    background: #FCCE00;
+    width: 10%;
+}
+
+#col1{
+    top: -12rem;
+    height: 5rem;
+    left: 33.75rem;
+}
+
+#col2{
+    height: 13rem;
+    top: -47rem;
+    left: 8rem;
+}
+#col3{
+    height: 13rem;
+    top: -60rem;
+    left: 58rem;
+}
