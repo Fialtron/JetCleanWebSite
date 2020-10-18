@@ -49,46 +49,107 @@ app = (() => {
         </header>
         <section id="about-us">
             <div class="informacion">
-              <h2>Sobre nosotros</h2>
-              <div>Descripcion de lo que se hace</div>
-              <div>Valor 1</div>
-              <div>Valor 2 </div>
-              <div>Valor 3 </div>
-              <div>Valor 4</div>
+              <h2>About us</h2>
+              <div class="valores">
+                <figure>
+                  <img src="img/canada.svg" alt="El nuevo concepto de limpieza">
+                  <figcaption>
+                    <h3>All places</h3>
+                    <p>Descripcion del valor</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="valores">
+                <figure>
+                  <img src="img/24-horas.svg" alt="El nuevo concepto de limpieza">
+                  <figcaption>
+                    <h3>Full time</h3>
+                    <p>Descripcion del valor</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="valores">
+                <figure>
+                  <img src="img/velocimetro.svg" alt="El nuevo concepto de limpieza">
+                  <figcaption>
+                    <h3>Speed</h3>
+                    <p>Descripcion del valor</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="valores">
+                <figure>
+                  <img src="img/equipo-de-limpieza.svg" alt="El nuevo concepto de limpieza">
+                  <figcaption>
+                    <h3>Staff</h3>
+                    <p>Descripcion del valor</p>
+                  </figcaption>
+                </figure>
+              </div>
               <span>Ver mas</span>
             </div>
         </section>
         <section id="services">
+
+            <h2>Services</h2>
             <ul>
                 <li>
                     <figure>
+                      <img src="img/alfombra.jpg" alt="El nuevo concepto de limpieza">
                     </figure>
-                    <div></div>
+                    <div>
+                      <h3>carpet cleannig</h3>
+                      <p>Descripcion del valor</p>
+                    </div>
                 </li>
                 <li>
                     <div>
+                      <h3>Daily cleaning</h3>
+                      <p>Descripcion del valor</p>
                     </div>
                     <figure>
+                      <img src="img/pisos.jpg" alt="El nuevo concepto de limpieza">
                     </figure>
-
                 </li>
                 <li>
-                    <figure >
+                    <figure>
+                      <img src="img/ventanas.jpg" alt="El nuevo concepto de limpieza">
                     </figure>
-                    <div></div>
+                    <div>
+                      <h3>Remove graffiti</h3>
+                      <p>Descripcion del valor</p>
+                    </div>
                 </li>
             </ul>
+            <span>Ver mas</span>
         </section>
         <aside>
             <figure>
                 <img src="img/supermarket-949913_1920.jpg" alt="">
+                <div>
+                  <p>Close your eyes and breath</p>
+                </div>
             </figure>
         </aside>
         <section id="contact-us">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>
+              <h2>Contact us</h2>
+              <form>
+                <input type="text" placeholder="Your full name">
+                <input type="text" placeholder="Email-address">
+                <input type="text" placeholder="Your message">
+              </form>
+              <button>Submit</button>
+            </div>
+            <div>
+              <img src="img/facebook.png" alt="">
+            </div>
+            <div>
+              <img src="img/instagram.png" alt="">
+            </div>
+            <div>
+              <img src="img/whatsapp.png" alt="">
+            </div>
         </section>
     `);
 

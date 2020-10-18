@@ -144,6 +144,40 @@ figure{
     margin: 0%;
 }
 
+footer{
+    background-color: #F5C700;
+    width: 100%;
+    height: 15rem;
+    padding-top: 2rem;
+}
+
+footer div{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: 10rem;
+}
+
+footer div:nth-child(1) {
+    margin-left: 20%;
+}
+
+footer div h4{
+    margin: 3%;
+    cursor: pointer;
+}
+
+footer div > ul{
+    margin:3%;
+    list-style: none;
+}
+
+
+footer div > ul li{
+    margin:3%;
+    cursor: pointer;
+}
+
 @media (max-width: 1279px){
  
     nav {
@@ -160,7 +194,13 @@ figure{
         top: .3rem;
     }
 
-   
+    footer div{
+        width: 40%;
+    }
+
+    footer div:nth-child(1) {
+        margin-left: 10%;
+    }
 }
 
 @media (max-width: 950px){
@@ -291,6 +331,8 @@ figure{
         line-height: 2.5rem;
     }
 
+
+    
 
 }
 
