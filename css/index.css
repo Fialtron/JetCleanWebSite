@@ -18,7 +18,7 @@ header figure img {
 header figure div {
     
     position: relative;
-    top: -40rem;
+    top: -44rem;
     font-family: Squada !important;
     font-size: 2rem;
     color: white;  
@@ -29,8 +29,7 @@ header figure div h1{
     text-align: center;
     text-decoration: wavy;
     margin: 0rem;
-    font-size: 7rem; 
-    
+    font-size: 7rem;   
 }
 
 header figure div h2,h3{
@@ -49,26 +48,92 @@ header figure div h3{
 section#about-us{
     background-color:black;
     width: 100%;
-    height: 30%;
-    max-height: 40rem;
-
+    height: 50rem;
 }
 
-section .informacion{
+section#about-us .informacion{
     background-color:#E6E6E6;
     width: 70%;
-    height: 40rem;
+    height: 45rem;
+    padding: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 0%;
     position: relative;
     margin: auto;
     top: -3rem;
 
 }
 
+section#about-us .informacion h2{
+    width: 90%;
+    margin: 0% auto 0% auto;
+    text-align: center;
+    position: relative;
+    font-family: Open condensed bold;
+    font-size: xxx-large;
+    
+}
+
+
+section#about-us .informacion div.valores{
+    width: 40%;
+    margin-top: 4%;
+    margin-left: 5% ;
+    margin-right: 2% ;
+    display: inline-block;
+    
+}
+
+section#about-us .informacion div.valores img{
+    width: 30%;
+    margin-left: 35%;
+    
+}
+
+section#about-us .informacion div.valores figcaption{
+    text-align: center;  
+}
+
+section#about-us .informacion div.valores figcaption h3{
+    font-size: x-large; 
+    margin-bottom: .2%;
+    margin-left: 0%;
+}
+
+section#about-us .informacion span{
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-size: x-large;
+    margin-top: 6%;
+}
+
+/* section#about-us .informacion span:hover{
+    color:#FCCE00;
+} */
+
+section#about-us .informacion span:after{
+    content: url('/img/flecha-hacia-abajo.svg');
+    display: block;
+    width: 3rem;
+  
+    margin: auto;
+}
+
 section#services{
     background-color: black;
     width: 100%;
-    padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+section#services h2{
+    color: white;
+    width: 90%;
+    margin: 0% auto 0% auto;
+    text-align: center;
+    position: relative;
+    font-family: Open condensed bold;
+    font-size: xxx-large;
 }
 
 section#services ul{
@@ -90,16 +155,35 @@ section#services ul li figure{
     height: 20rem;
     position: relative;
     z-index: 20;
+    overflow: hidden;
+}
+
+section#services ul li figure img{
+   width: 130%;
 }
 
 section#services ul li div{
-    background-color: whitesmoke;
+    background-color:#E6E6E6;
+    opacity: .8;
     width: 40%;
-    height: 10rem;
+    height: 15rem;
     position: absolute;
     z-index: 25;
-    left: 24rem;
-    top: 5rem;
+    left: 23.8rem;
+    padding: 2%;
+    top: 2.5rem;
+}
+
+section#services ul li div h3{
+    font-size: x-large; 
+    margin: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+section#services ul li div p{
+    margin-top: 2rem;
 }
 
 section#services ul li:nth-child(2) figure{
@@ -112,16 +196,38 @@ section#services ul li:nth-child(2) figure{
 }
 
 section#services ul li:nth-child(2) div{
-    background-color: red;
+    background-color: #E6E6E6;
     position: relative;
-    left: 3rem;
-    top: 5rem;
+    left: 1.51rem;
+    top: 2.5rem;
     margin-bottom: 12rem;
     z-index: 20;
 }
 
+
+section#services span{
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-size: x-large;
+    color: white;
+    margin-top: 6%;
+}
+
+section#services span:hover{
+   color:  #FCCE00;
+}
+
+section#services span:after{
+    content: url('/img/flecha-hacia-abajo.svg');
+    display: block;
+    width: 3rem;
+  
+    margin: auto;
+}
+
 aside{
-    background-color: grey;
+    background-color: #08080E;
     width: 100%;
 }
 
@@ -133,7 +239,20 @@ aside figure {
 
 aside figure > img {
     width: 100%;
+    opacity: .6;
     position: relative;
+}
+
+aside figure > div p{
+    position: relative;
+    color: white;
+    top: -53rem;
+    font-family: Squada !important;
+    font-size: 6rem;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
 }
 
 section#contact-us{
@@ -145,7 +264,6 @@ section#contact-us{
 }
 
 section#contact-us div{
-    background-color: #E6E6E6;
     width: 5rem;
     height: 5rem;
     margin: 2rem 2rem 2rem 10rem;
@@ -153,6 +271,11 @@ section#contact-us div{
     position: relative;
 
 
+}
+
+section#contact-us div > img{
+    width: 100%;
+    cursor: pointer;
 }
 
 section#contact-us div:nth-child(1){
@@ -164,89 +287,120 @@ section#contact-us div:nth-child(1){
     top: -20% ;
 }
 
-
-footer {
-    background-color: #F5C700;
-    width: 100%;
-    height: 15rem;
-    padding-top: 2rem ;
-
+section#contact-us div:nth-child(1) h2{
+    text-align: center;
+    font-family: Open condensed bold;
+    font-size: xxx-large;
+    margin-bottom: .2%;
 }
 
-footer div{
+section#contact-us div:nth-child(1) input{
+    width: 70%;
     display: inline-block;
-    position: relative;
-    width: 30%;
-    height: 10rem;
-    background-color: azure;
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 2rem;
 }
 
-footer div:nth-child(1) {
-    margin-left: 20%;
+section#contact-us div:nth-child(1) input:nth-child(3){
+    height: 5rem;
 }
+
+section#contact-us div:nth-child(1) button{
+    color: white;
+    background-color: black;
+    display: block;
+    margin-top: 2%;
+    width: 30%;
+    margin-top: 4%;
+    margin-left: 35%;
+    height: 3rem;
+    cursor: pointer;
+    font-size: xx-large;
+    font-family: Squada ;
+    border-radius: 1rem;
+}
+
+
 
 
 
 @media screen and (max-width: 1279px){
 
+    header figure img {
+        min-height: 45rem;
+    }
+    
+    header figure div {    
+        top: -32rem;
+    }
+
+    header figure div h1{
+        font-size: 6rem;   
+    }
+
+    header figure div h2{
+        font-size: 4rem; 
+    }
+    header figure div h3{
+         margin-top: 0rem;
+         margin-bottom: 0rem;
+    }
+    
+    section#about-us .informacion{
+        height: 37rem;
+        padding: 4rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    section#services ul li figure img{
+       width: 130%;
+       min-height: 100%;
+    }
+    
+    section#services ul li div{
+        left: 17.8rem;
+    }
+    
+    section#services ul li:nth-child(2) figure{
+        left: 14.6rem;
+    }
+    
+    aside figure > div p{
+        top: -40rem;
+        font-size: 5rem;
+    }
 
     section#contact-us div{
-        background-color: #D9D9D9;
         width: 5rem;
         height: 5rem;
         margin: 2rem 2rem 2rem 8rem;
         display: inline-block;
         position: relative;
-
-
     }
 
     section#contact-us div:nth-child(1){
         background-color: #D9D9D9;
         width: 60%;
-        height: 35rem;
+        height: 30rem;
         margin: 0rem 6rem 0rem 2rem;
         float: right;
         top: -20% ;
     }
 
-    footer div{
-        width: 40%;
-    }
-
-    footer div:nth-child(1) {
-        margin-left: 10%;
-    }
-
 }
-
-
 
 @media screen and (max-width: 950px){
 
-
-    section .informacion{
-        background-color: #D9D9D9;
-        width: 70%;
-        height: 30rem;
-        position: relative;
-        margin: auto;
-        top: -3rem;
-
+    section#about-us .informacion{
+        height: 35rem;
     }
 
-    section#services{
-        background-color: yellowgreen;
-
+    section#about-us {
+        height: 40rem;
     }
 
-    section#services ul{
-        width: 70%;
-        position: relative;
-        background-color: yellow;
-        margin: auto;
-        list-style-type: none;
-    }
 
     section#services ul li {
         background-color: blueviolet;
@@ -257,72 +411,49 @@ footer div:nth-child(1) {
 
     section#services ul li figure{
         background-color: cyan;
-        width: 60%;
+        width: 40%;
         margin: 0%;
-        height: 15rem;
+        height: 17rem;
         position: relative;
         z-index: 20;
     }
 
     section#services ul li div{
-        background-color: whitesmoke;
-        width: 40%;
+        width: 60%;
         height: 15rem;
-        position: absolute;
-        z-index: 25;
-        left: 60%;
+        padding: 1rem 0rem 1rem 0rem !important;
+        left: 40%;
         top: 0rem;
+        padding: 0%;
     }
 
     section#services ul li:nth-child(2) figure{
-        background-color:  cyan;
-        position: absolute;
         top: 0rem;
-        left: 40%;
-        z-index: 19;
-
+        left: 60%;
     }
 
     section#services ul li:nth-child(2) div{
-        background-color:whitesmoke;
-        position: relative;
         left: 0rem;
         top: 0rem;
         margin-bottom: 2rem;
-        z-index: 20;
     }
 
 
-    aside figure {
-        width: 100%;
-        height: 25rem;
-        overflow: hidden;
-    }
-
-    aside figure > img {
-        width: 100%;
-        position: relative;
+    
+    section#services ul li div p{
+        margin-top: 1rem;
+        margin-left: .5rem;
     }
 
 
-    section#contact-us{
-        background-color: #08080E;
-        width: 100%;
-        height: 35rem;
-        padding-top:2rem;
-
+    aside figure > div p{
+        top: -28rem;
+        font-size: 5rem;
     }
 
     section#contact-us div{
-        background-color: #D9D9D9;
-        width: 5rem;
-        height: 5rem;
         margin: 2% 0% 0% 17%;
-        display: inline-block;
-        position: relative;
         top: -15% ;
-
-
     }
 
     section#contact-us div:nth-child(1){
@@ -336,9 +467,6 @@ footer div:nth-child(1) {
     }
 
 }
-
-
-
 
 @media screen and (max-width: 767px){
 
