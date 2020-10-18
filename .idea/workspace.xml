@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d518254-fae9-4e95-b49d-249892ba29a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/aboutUs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/aboutUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/aboutUs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,10 @@
       <workItem from="1602703761460" duration="1494000" />
       <workItem from="1602781929970" duration="44000" />
       <workItem from="1602812750144" duration="3834000" />
-      <workItem from="1602880983090" duration="23013000" />
+      <workItem from="1602880983090" duration="24700000" />
+      <workItem from="1602951956323" duration="6873000" />
+      <workItem from="1602968218979" duration="15842000" />
+      <workItem from="1603030240500" duration="12115000" />
     </task>
     <task id="LOCAL-00001" summary="Listos los espacios para las 3 transiciones">
       <created>1602881203577</created>
@@ -68,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602881203577</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="casi amarillo del about us">
+      <created>1602913345551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602913345551</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,17 +87,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Listos los espacios para las 3 transiciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listos los espacios para las 3 transiciones" />
+    <MESSAGE value="casi amarillo del about us" />
+    <option name="LAST_COMMIT_MESSAGE" value="casi amarillo del about us" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602700346321">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="474" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1602700346321" />
-    <state x="393" y="2" key="CommitChangelistDialog2" timestamp="1602881202922">
+    <state x="393" y="2" key="CommitChangelistDialog2" timestamp="1602913345139">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="2" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1602881202922" />
+    <state x="393" y="2" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1602913345139" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1602781972391">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -95,10 +107,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1602883763942" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602883352776">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1603048948971">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1602883352776" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1603048948971" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1603004498429">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1603004498429" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

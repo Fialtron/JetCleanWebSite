@@ -53,13 +53,14 @@ header figure div h3{
 }
 
 #mainGrid {
-    flex: 70%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     background: #000000;
     padding: 10rem;
 }
 
 #find-us{
-    flex: 30%;
     background: aqua;
     padding: 10rem;
 }
@@ -84,23 +85,27 @@ header figure div h3{
     margin-left: 0;
 }
 
-#about-us {
-    position: relative;
-    background: aliceblue;
-    flex-flow: column nowrap;
-    width: 50%;
+#about-us{
+    display: flex;
+    position:relative;
+    background: #191DFF;
+    flex-flow: row wrap;
+    width: 85%;
     height: 35rem;
-    left: 31rem;
     top: -12rem;
+
 }
 
-#about-us-pic {
-    position: relative;
+#about-us figure{
+    order: 1;
+    flex: 40%;
     background: chartreuse;
-    width: 35%;
-    height: 35rem;
-    bottom: 47rem;
-    left: 4.75rem;
+}
+
+#about-us div{
+    order: 2;
+    flex: 60%;
+    background: aliceblue;
 }
 
 #banner h3{
@@ -116,16 +121,141 @@ header figure div h3{
 #col1{
     top: -12rem;
     height: 5rem;
-    left: 33.75rem;
-}
 
+}
 #col2{
     height: 13rem;
-    top: -47rem;
-    left: 8rem;
+    top: -12rem;
+    left: -33%;
 }
 #col3{
     height: 13rem;
-    top: -60rem;
-    left: 58rem;
+    top: -25rem;
+    left: 33%;
 }
+#col4{
+    height: 33rem;
+    top: -78rem;
+}
+
+section#testimonials{
+    position: relative;
+    top: -25rem;
+}
+
+section#testimonials ul{
+    margin-top: 0;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+section#testimonials ul li{
+    margin-bottom: 10%;
+    height: 15rem;
+}
+
+
+section#testimonials ul li div{
+    display: flex;
+    background: aliceblue;
+    height: 15rem;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    z-index: 2;
+    flex-flow: column nowrap;
+}
+
+section#testimonials ul li:nth-child(1) div{
+    left: 3%;
+}
+
+section#testimonials ul li div h4{
+    margin-top: 0;
+}
+
+section#testimonials ul figure{
+    background: blueviolet;
+    width: 20%;
+    height: 12rem;
+    z-index: 3;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+
+section#testimonials ul li:nth-child(1) figure{
+    bottom: 130%;
+    left: 7%;
+}
+
+section#testimonials ul li:nth-child(2) figure{
+    bottom: 130%;
+    left: 73%;
+}
+section#testimonials ul li:nth-child(3) div{
+    left:3%
+}
+
+section#testimonials ul li:nth-child(3) figure{
+    bottom: 130%;
+    left: 7%;
+}
+section#findUs{
+    position: relative;
+    top: -54rem;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+section#findUs h1{
+    color: white;
+}
+
+#map{
+    background: deepskyblue;
+    width: 85%;
+    height: 35rem;
+    position: relative;
+}
+
+section#findUs ul{
+    list-style-type: none;
+    position: relative;
+    top: -9rem;
+    left: -48%;
+}
+
+section#findUs ul li{
+    margin-bottom: 40%;
+}
+
+section#findUs p{
+    background: aliceblue;
+    height: 2.8rem;
+    width: 400%;
+}
+
+#icons{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center;
+    position: relative;
+    top: -22rem;
+    left: 15%;
+    width: 183%;
+
+}
+
+#icons figure{
+    background: darkorange;
+    width: 8%;
+    height: 9rem;
+    margin-right: 2%;
+}
+
+
+

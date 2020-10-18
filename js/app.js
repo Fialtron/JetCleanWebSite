@@ -108,6 +108,32 @@ app = (() => {
             </div>
         </figure>
     </header>
+    <div id="servicesContainer">
+        <ul>
+            <li>
+                <h3>CARPET CLEANING</h3>
+            </li>
+            <li>
+                <h3>PISOS WAXING</h3>
+            </li>
+            <li>
+                <h3>LIMPIEZA GENERAL DE MERCADO</h3>
+            </li>
+            <li>
+                <h3>BARRIDA DE PARQUEADEROS</h3>
+            </li>
+            <li>
+                <h3>PISOS WAXING</h3>
+            </li>
+            <li>
+                <h3>REMOVE GRAFFITI</h3>
+            </li>
+            <li>
+                <h3>REMOVE SHOW</h3>
+            </li>
+        </ul>
+        
+    </div>
     `);
   };
 
@@ -126,50 +152,89 @@ app = (() => {
             </div>
         </figure>
     </header>
-    <div id="wrapper">
-        <div id="mainGrid">
+    <div id="mainGrid">
+        
             <div id="banner" class="perfect-center">
                 <h3>JET CLEAN</h3>
                 <p>CLOSE YOUR EYES AND BREATH</p>
             </div>
+            
             <div id="col1" class="col">
             
             </div>
-            <div id="about-us" class="perfect-center">
-                <h3>About Us</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, amet asperiores cupiditate ducimus eum nostrum placeat tempore. Consequatur minima non nostrum numquam placeat quibusdam repellendus velit voluptatem? Unde, vitae voluptatem.</p>
-            </div>
-            <figure id="about-us-pic">
             
-            </figure>
+            <div id="about-us">
+                <figure>
+                
+                </figure>
+                <div>
+                    <h3>About Us</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, amet asperiores cupiditate ducimus eum nostrum placeat tempore. Consequatur minima non nostrum numquam placeat quibusdam repellendus velit voluptatem? Unde, vitae voluptatem.</p>
+                </div>
+            </div>
+            
             <div id="col2" class="col"></div>
+            
             <div id="col3" class="col"></div>
+            
             <section id="testimonials">
             <ul>
                 <li>
+                    
+                    <div class="perfect-center">
+                        <h4>Persona 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut cumque earum et ex illo maiores quaerat repudiandae sunt tenetur? Consequuntur dolor earum et, fuga in minus mollitia nisi pariatur?</p>
+                    </div>
                     <figure>
                     </figure>
-                    <div></div>
+                    
                 </li>
                 <li>
-                    <div>
+                    <div class="perfect-center">
+                        <h4>Persona 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque doloremque exercitationem, fuga, ipsum iste laudantium molestias necessitatibus odio placeat quas quibusdam, quisquam quos reiciendis repudiandae vel velit vitae voluptas.</p>
                     </div>
                     <figure>
                     </figure>
 
                 </li>
                 <li>
+                    
+                    <div class="perfect-center">
+                        <h4>Persona 3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda consectetur deleniti dolores ex officia omnis quos repudiandae voluptatibus. Aliquam aliquid in ipsa libero nihil quaerat quam sit totam.</p>
+                    </div>
                     <figure >
                     </figure>
-                    <div></div>
+
                 </li>
             </ul>
-        </section>
-           
-        </div>
-        <div id="find-us">
-
-        </div>
+            </section>
+            <div id="col4" class="col"></div>
+            <section id="findUs">
+                <h1>Encuentranos</h1>
+                <figure id="map">
+                
+                </figure>
+                <ul>
+                    <li>
+                        <p>Dirección 1</p>
+                    </li>
+                    <li>
+                        <p>Dirección 2</p>
+                    </li>
+                    <li>
+                        <p>Dirección 3</p>
+                    </li>
+                </ul>
+                
+                <div id="icons">
+                    <figure></figure>
+                    <figure></figure>
+                    <figure></figure>
+                </div>
+                
+            </section>
     </div>`);
   };
 
