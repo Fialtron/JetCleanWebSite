@@ -170,73 +170,30 @@ app = (() => {
         </figure>
     </header>
     <div id="servicesContainer">
-    <div id="slider">
-        <div class="wrapper">
-  <input checked type=radio name="slider" id="slide1" />
-  <input type=radio name="slider" id="slide2" />
-  <input type=radio name="slider" id="slide3" />
-  <input type=radio name="slider" id="slide4" />
-  <input type=radio name="slider" id="slide5" />
-
-  <div class="slider-wrapper">
-    <div class=inner>
-      <article>
-        <div class="info top-left">
-          <h3></h3>
-        </div>
-        <img src="img/slider/0.jpeg" />
-      </article>
-
-      <article>
-        <div class="info bottom-right">
-          <h3></h3>
-        </div>
-        <img src="img/slider/1.jpeg" />
-      </article>
-
-      <article>
-        <div class="info bottom-left">
-          <h3></h3>
-        </div>
-        <img src="img/slider/3.jpeg" />
-      </article>
-
-      <article>
-        <div class="info top-right">
-          <h3></h3>
-        </div>
-        <img src="img/slider/8.jpeg" />
-      </article>
-
-      <article>
-        <div class="info bottom-left">
-          <h3></h3>
-        </div>
-        <img src="img/slider/10.jpeg"/>
-      </article>
-    </div>
-    <!-- .inner -->
-  </div>
-  <!-- .slider-wrapper -->
-
-  <div class="slider-prev-next-control">
-    <label for=slide1></label>
-    <label for=slide2></label>
-    <label for=slide3></label>
-    <label for=slide4></label>
-    <label for=slide5></label>
-  </div>
-  <!-- .slider-prev-next-control -->
-
-  <div class="slider-dot-control">
-    <label for=slide1></label>
-    <label for=slide2></label>
-    <label for=slide3></label>
-    <label for=slide4></label>
-    <label for=slide5></label>
-  </div>
-  <!-- .slider-dot-control -->
-</div>
+        <ul>
+            <li>
+                <h3>CARPET CLEANING</h3>
+            </li>
+            <li>
+                <h3>PISOS WAXING</h3>
+            </li>
+            <li>
+                <h3>LIMPIEZA GENERAL DE MERCADO</h3>
+            </li>
+            <li>
+                <h3>BARRIDA DE PARQUEADEROS</h3>
+            </li>
+            <li>
+                <h3>PISOS WAXING</h3>
+            </li>
+            <li>
+                <h3>REMOVE GRAFFITI</h3>
+            </li>
+            <li>
+                <h3>REMOVE SHOW</h3>
+            </li>
+        </ul>
+        
     </div>
     `);
   };
@@ -257,6 +214,7 @@ app = (() => {
         </figure>
     </header>
     <div id="mainGrid">
+        
             <div id="banner" class="perfect-center">
                 <h3>JET CLEAN</h3>
                 <p>CLOSE YOUR EYES AND BREATH</p>
