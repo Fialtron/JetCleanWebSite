@@ -19,6 +19,16 @@
       src: url(../fonts/SquadaOne-Regular.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Major";
+      src: url(../fonts/MajorMonoDisplay-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+      src: url(../fonts/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+
 body{
     font-family: Open condensed, serif;
 }

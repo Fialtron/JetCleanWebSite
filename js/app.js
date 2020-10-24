@@ -207,26 +207,23 @@ app = (() => {
         <figure>
             <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
             <div>
-                <h1>Jet Clean</h1>
-                <h2>A new cleanning concept</h2>
-                <h3>We are experts about cleanning </h3>
+                <h1>The new cleaning concept</h1>
+                <h2>You can fell it with all your senses</h2>
             </div>
         </figure>
     </header>
     <div id="mainGrid">
-        
             <div id="banner" class="perfect-center">
                 <h3>JET CLEAN</h3>
                 <p>CLOSE YOUR EYES AND BREATH</p>
             </div>
             
             <div id="col1" class="col">
-            
             </div>
             
             <div id="about-us">
                 <figure>
-                
+                  <img src="img/tienda.jpeg" alt="">
                 </figure>
                 <div>
                     <h3>About Us</h3>

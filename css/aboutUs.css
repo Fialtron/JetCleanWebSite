@@ -16,35 +16,28 @@ header figure img {
 }
 
 header figure div {
-
     position: relative;
     top: -40rem;
     font-family: Squada !important;
     font-size: 2rem;
     color: white;
 }
+
 header figure div h1{
     text-transform: uppercase;
-    text-align: center;
-    text-decoration: wavy;
     margin: 0rem;
-    font-size: 7rem;
-
-}
-
-header figure div h2,h3{
     margin-left: 3rem;
+    text-decoration: wavy;
+    font-size: 6rem;
 }
 
 header figure div h2{
+    margin-left: 3rem;
     margin-bottom: 0rem;
-    font-size: 4rem;
+    font-size: 3rem;
+    font-family: Raleway;
 }
 
-header figure div h3{
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-}
 
 #wrapper {
     display: flex;
@@ -82,7 +75,18 @@ header figure div h3{
 }
 
 #banner h3{
+    font-family: Major;
+    text-transform: lowercase;
+    font-size: xxx-large;
     margin-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#banner p{
+    font-family: Major;
+    text-transform: lowercase;
+    font-size: x-large;
 }
 
 #about-us{
@@ -100,13 +104,32 @@ header figure div h3{
     order: 1;
     flex: 40%;
     background: chartreuse;
+    overflow: hidden;
+    height: 100%;
+}
+
+#about-us figure img{
+    height: 100%;
 }
 
 #about-us div{
     order: 2;
-    flex: 60%;
-    background: aliceblue;
+    flex: 56%;
+    padding: 2%;
+    background: #E6E6E6;
 }
+
+
+#about-us div h3{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+    text-align: center;
+    font-family: Open condensed bold;
+    font-size: xx-large;
+
+}
+
 
 #banner h3{
     margin-left: 0;
