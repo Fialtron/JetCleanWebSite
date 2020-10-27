@@ -282,32 +282,35 @@ app = (() => {
             <ul>
                 <li>
                     
-                    <div class="perfect-center">
+                    <div>
                         <h4>Persona 1</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut cumque earum et ex illo maiores quaerat repudiandae sunt tenetur? Consequuntur dolor earum et, fuga in minus mollitia nisi pariatur?</p>
                     </div>
+
                     <figure>
+                      <img src="img/persona1.jpg" alt="">
                     </figure>
                     
                 </li>
                 <li>
-                    <div class="perfect-center">
+                    <div>
                         <h4>Persona 2</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque doloremque exercitationem, fuga, ipsum iste laudantium molestias necessitatibus odio placeat quas quibusdam, quisquam quos reiciendis repudiandae vel velit vitae voluptas.</p>
                     </div>
                     <figure>
+                      <img src="img/persona2.jpg" alt="">
                     </figure>
 
                 </li>
                 <li>
                     
-                    <div class="perfect-center">
+                    <div>
                         <h4>Persona 3</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda consectetur deleniti dolores ex officia omnis quos repudiandae voluptatibus. Aliquam aliquid in ipsa libero nihil quaerat quam sit totam.</p>
                     </div>
                     <figure >
+                      <img src="img/persona3.jpg" alt="">
                     </figure>
-
                 </li>
             </ul>
             </section>

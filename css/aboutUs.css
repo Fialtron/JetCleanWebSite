@@ -50,13 +50,10 @@ header figure div h2{
     flex-flow: column nowrap;
     align-items: center;
     background: #000000;
-    padding: 10rem;
+    padding: 0rem 10rem 0rem 10rem;
 }
 
-#find-us{
-    background: aqua;
-    padding: 10rem;
-}
+
 
 .perfect-center{
     display: flex;
@@ -69,9 +66,11 @@ header figure div h2{
     margin: auto;
     background: aliceblue;
     flex-flow: column nowrap;
-    top: -12rem;
     width: 60%;
     height: 8rem;
+    top: -4rem;
+    margin-bottom: 5%;
+    z-index: 10;
 }
 
 #banner h3{
@@ -96,8 +95,7 @@ header figure div h2{
     flex-flow: row wrap;
     width: 85%;
     height: 35rem;
-    top: -12rem;
-
+    z-index: 10;
 }
 
 #about-us figure{
@@ -136,34 +134,34 @@ header figure div h2{
 }
 
 .col{
-    position: relative;
+    position: absolute;
     background: #FCCE00;
-    width: 10%;
+    width: 7%;
+    z-index: 999;
 }
 
 #col1{
-    top: -12rem;
-    height: 5rem;
-
+    height: 15rem;
+    z-index: 2;
 }
+
 #col2{
+    display: none;
     height: 13rem;
-    top: -12rem;
     left: -33%;
 }
 #col3{
+    display: none;
     height: 13rem;
-    top: -25rem;
     left: 33%;
 }
 #col4{
+    display: none;
     height: 33rem;
-    top: -78rem;
 }
 
 section#testimonials{
     position: relative;
-    top: -25rem;
 }
 
 section#testimonials ul{
@@ -205,6 +203,42 @@ section#testimonials ul figure{
     margin: auto;
     position: relative;
     display: inline-block;
+    overflow: hidden;
+}
+
+section#testimonials ul figure img{
+    width: 100%;
+    height: 100%;
+}
+
+section#testimonials ul li div h4{
+    margin-top: 5% !important;
+    margin-left: 20%;
+    font-family: Open condensed bold;
+    font-size: large;
+    
+}
+
+section#testimonials ul li div p{
+    margin-left: 20%;
+}
+
+section#testimonials ul li:nth-child(2) div h4{
+
+    margin-left: 5%;
+    font-family: Open condensed bold;
+    font-size: large;
+    
+}
+
+section#testimonials ul li:nth-child(2) div p{
+    margin-left: 5%;
+    max-width: 70%;
+}
+
+section#testimonials ul li:nth-child(2) figure{
+    bottom: 130%;
+    left: 73%;
 }
 
 section#testimonials ul li:nth-child(1) figure{
@@ -224,9 +258,9 @@ section#testimonials ul li:nth-child(3) figure{
     bottom: 130%;
     left: 7%;
 }
+
 section#findUs{
     position: relative;
-    top: -54rem;
     width: 95%;
     display: flex;
     align-items: center;
@@ -262,7 +296,7 @@ section#findUs p{
 }
 
 #icons{
-    display: flex;
+    display: none;
     flex-flow: row wrap;
     align-content: space-between;
     justify-content: center;
