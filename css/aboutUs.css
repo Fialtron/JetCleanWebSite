@@ -96,6 +96,7 @@ header figure div h2{
     width: 85%;
     height: 35rem;
     z-index: 10;
+    margin-bottom: 20%;
 }
 
 #about-us figure{
@@ -137,27 +138,30 @@ header figure div h2{
     position: absolute;
     background: #FCCE00;
     width: 7%;
-    z-index: 999;
+    z-index: 2;
 }
 
 #col1{
     height: 15rem;
-    z-index: 2;
+  
 }
 
 #col2{
-    display: none;
-    height: 13rem;
-    left: -33%;
+    height: 20rem;
+    left: 70%;
+    top:190%;
+    
 }
 #col3{
-    display: none;
-    height: 13rem;
-    left: 33%;
+    height: 17rem;
+    left: 23%;
+    top:185%;
 }
+
 #col4{
-    display: none;
-    height: 33rem;
+    height: 38rem;
+    top:245%;
+    z-index: 2;
 }
 
 section#testimonials{
@@ -173,6 +177,7 @@ section#testimonials ul{
 section#testimonials ul li{
     margin-bottom: 10%;
     height: 15rem;
+    z-index: 20;
 }
 
 
@@ -183,7 +188,7 @@ section#testimonials ul li div{
     width: 80%;
     position: relative;
     margin: auto;
-    z-index: 2;
+    z-index: 20;
     flex-flow: column nowrap;
 }
 
@@ -199,7 +204,7 @@ section#testimonials ul figure{
     background: blueviolet;
     width: 20%;
     height: 12rem;
-    z-index: 3;
+    z-index: 21;
     margin: auto;
     position: relative;
     display: inline-block;
@@ -315,4 +320,56 @@ section#findUs p{
 }
 
 
+@media screen and (max-width: 1279px){
+
+    header {
+        height: 30%;
+        max-height: 38rem;
+        overflow: hidden;
+    }
+
+    header figure img {
+        min-height: 35rem;
+        
+    }
+    header figure div {    
+        top: -32rem;
+    }
+    header figure div h1{
+        font-size: 6rem;   
+    }
+    header figure div h2{
+        margin-top: 0rem;
+        font-size: 4rem; 
+    }
+
+    #col2{
+        top:170%;
+        
+    }
+    #col3{
+        height: 14rem;
+        top:175%;
+    }
+    #col4{
+        height: 38rem;
+        top:225%;
+        z-index: 2;
+    }
+
+    section#testimonials ul li{
+        margin-bottom: 15%;
+      
+    }
+
+}
+
+@media screen and (max-width: 950px){
+
+
+}
+
+@media screen and (max-width: 767px){
+
+}
 
