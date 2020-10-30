@@ -318,17 +318,17 @@ app = (() => {
             <section id="findUs">
                 <h1>Encuentranos</h1>
                 <figure id="map">
-                
+                  <img src="img/mapa.png" alt="">
                 </figure>
                 <ul>
                     <li>
-                        <p>Dirección 1</p>
+                        <p>Dirección: 1679 conssesion 4 Road Virgil</p>
                     </li>
                     <li>
-                        <p>Dirección 2</p>
+                        <p>Codigo Postal LOS1JO</p>
                     </li>
                     <li>
-                        <p>Dirección 3</p>
+                        <p>Telefono: +1(289) 440-2188</p>
                     </li>
                 </ul>
                 

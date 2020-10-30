@@ -281,6 +281,13 @@ section#findUs h1{
     width: 85%;
     height: 35rem;
     position: relative;
+    overflow: hidden;
+}
+
+#map img{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 section#findUs ul{
@@ -291,13 +298,18 @@ section#findUs ul{
 }
 
 section#findUs ul li{
+    width: 100%;
+    background: yellow;
+    padding: 5% ;
     margin-bottom: 40%;
 }
 
 section#findUs p{
-    background: aliceblue;
+    padding-top: 8%;
     height: 2.8rem;
-    width: 400%;
+    text-align: center;
+    
+    
 }
 
 #icons{
@@ -362,6 +374,19 @@ section#findUs p{
       
     }
 
+    #map{
+        background: deepskyblue;
+        width: 85%;
+        height: 30rem;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #map img{
+        position: relative;
+        width: 100%;
+        height: 120%;
+    }
 }
 
 @media screen and (max-width: 950px){
