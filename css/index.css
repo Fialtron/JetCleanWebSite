@@ -43,6 +43,7 @@ header figure div h2{
 header figure div h3{
      margin-top: 0rem;
      margin-bottom: 0rem;
+     font-family: Raleway;
 }
 
 section#about-us{
@@ -159,7 +160,7 @@ section#services ul li figure{
 }
 
 section#services ul li figure img{
-   width: 130%;
+   width: 100%;
 }
 
 section#services ul li div{

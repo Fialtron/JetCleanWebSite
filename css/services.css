@@ -1,6 +1,7 @@
 body{
     padding: 0;
 }
+
 header {
     height: 30%;
     max-height: 45rem;
@@ -19,35 +20,25 @@ header figure img {
 }
 
 header figure div {
-
     position: relative;
-    top: -40rem;
+    top: -47rem;
     font-family: Squada !important;
-    font-size: 2rem;
     color: white;
-}
-header figure div h1{
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: wavy;
-    margin: 0rem;
-    font-size: 7rem;
-
-}
-
-header figure div h2,h3{
-    margin-left: 3rem;
 }
 
 header figure div h2{
+    margin-left: 3rem;
     margin-bottom: 0rem;
-    font-size: 4rem;
+    font-size: 6rem !important;
 }
 
 header figure div h3{
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 3rem !important;
+    font-family: Raleway;
 }
+
 
 #servicesContainer{
     display: flex;
@@ -56,7 +47,275 @@ header figure div h3{
     background: #000000;
 }
 
+section#menu{
+    display: flex;
+    position:relative;
+    background: #E6E6E6;
+    flex-flow: row wrap;
+    width: 85%;
+    height: 60rem;
+    z-index: 10;
+    top:-5rem;
+
+}
+
+
+/*--------Menu ------------*/
+@-webkit-keyframes slidein {
+  0% {
+    top: -20rem;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    top: -20rem;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes slideout {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -20rem;
+    opacity: 0;
+  }
+}
+
+@keyframes slideout {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -20rem;
+    opacity: 0;
+  }
+}
+
+body {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body #scene {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+          justify-content: left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+}
+
+body #scene #left-zone {
+  background: #fff;
+  height: 75%;
+  -webkit-box-flex: 0;
+          flex-grow: 0;
+  display: -webkit-box;
+  display: flex;
+  width: 30%;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+          justify-content: left;
+}
+
+body #scene #left-zone .list {
+  display: -webkit-box;
+  display: flex;
+  list-style: none;
+  align-content: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] {
+  display: none;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] ~ label {
+  display: block;
+  opacity: 0.5;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: x-large;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] ~ label:first-letter {
+  text-transform: uppercase;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] ~ label:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] ~ .content {
+  position: absolute;
+ 
+  left: 30.8%;
+  top: -80%;
+  width: 68%;
+  margin-top: 2%;
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-name: slideout;
+          animation-name: slideout;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] ~ .content div {
+    width: 100%;
+    height: 15rem;
+}
+
+
+body #scene #left-zone .list li.item input[type="radio"] ~ .content div  h2 {
+    color:  black;
+    position: relative;
+    font-family: Open condensed bold;
+    font-size: xx-large;
+    left: 5%;
+
+  }
+  
+body #scene #left-zone .list li.item input[type="radio"] ~ .content div  p {
+    color:  black;
+    position: relative; 
+    left: 5%;
+    max-width: 90%;
+    font-size: large;
+    text-align: left;
+}
+  
+body #scene #left-zone .list li.item input[type="radio"] ~ .content div.why{
+    background-color: #000;
+    width: 100%;
+    height: 25rem;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] ~ .content div.why  img{
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: 15;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] ~ .content div.why  h2 {
+    color:  white;
+    position: relative;
+    top:-90%;
+    font-family: Open condensed bold;
+    font-size: xx-large;
+    left: 5%;
+}
+
+body #scene #left-zone .list li.item input[type="radio"] ~ .content div.why  p {
+    color:  white;
+    position: relative; 
+    top:-90% ; 
+    left: 5%;
+    max-width: 90%;
+    font-size: large;
+   text-align: left;
+}
+
+
+
+
+
+body #scene #left-zone .list li.item input[type="radio"]:checked ~ label {
+  color: black;
+  border-right: solid 4px  #FCCE00;
+  opacity: 1;
+  -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+body #scene #left-zone .list li.item input[type="radio"]:checked ~ .content {
+  -webkit-animation-duration: 0.75s;
+          animation-duration: 0.75s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+body #scene #middle-border {
+  background-color: #eee;
+  height: 75%;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  max-width: 2px;
+  z-index: 0;
+}
+
+body #scene #right-zone {
+  height: 100%;
+  -webkit-box-flex: 3;
+          flex-grow: 3;
+}
+
+
+
 /*------------SLIDER------------*/
+#slider{
+    margin: 5%;
+}
+
+#slider h2{
+    color:  white;
+    position: relative;
+    text-align: center;
+    font-family: Open condensed bold;
+    font-size: xxx-large;
+    margin: 4%;
+}
+
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
 .wrapper {
     max-width: 60em;
@@ -167,7 +426,7 @@ article img {
 /* Slider Styling */
 .slider-wrapper {
     width: 100%;
-    height: 20rem;
+    height: 40rem;
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 1px 1px 4px #666;
@@ -207,9 +466,12 @@ article img {
 }
 
 #slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after, #slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after, #slide5:checked ~ .slider-prev-next-control label:nth-child(1)::after {
-    content: "\ea42";
-    padding-left: 15px;
+    content: " ";
+   
+    
 }
+
+
 
 #slide1:checked ~ .slider-prev-next-control label:nth-child(2), #slide2:checked ~ .slider-prev-next-control label:nth-child(3), #slide3:checked ~ .slider-prev-next-control label:nth-child(4), #slide4:checked ~ .slider-prev-next-control label:nth-child(5), #slide5:checked ~ .slider-prev-next-control label:nth-child(1) {
     display: block;
@@ -224,7 +486,7 @@ article img {
 }
 
 #slide2:checked ~ .slider-prev-next-control label:nth-child(1)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(2)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide5:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide1:checked ~ .slider-prev-next-control label:nth-child(5)::after {
-    content: "\ea44";
+    content: " ";
     padding-left: 8px;
 }
 

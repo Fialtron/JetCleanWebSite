@@ -39,7 +39,7 @@ nav {
     position: fixed;
     z-index: 99;
     background-color: #FCCE00;
-    
+    padding: .4% 0%;
 }
 
 nav > figure {
@@ -118,8 +118,7 @@ div#social{
     width: 30%;
     position: fixed;
     bottom: 0%;
-    left: 35%;
-    
+    left: 35%;  
 }
 
 div#social div{
@@ -222,13 +221,12 @@ footer div > ul li{
 
 @media (max-width: 1079px){
  
-   
     nav figure#logo {
         left: 40%;
         width: 20%;
 
     }
-
+}
 
 @media (max-width: 950px){
     nav {
