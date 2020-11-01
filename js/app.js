@@ -122,7 +122,7 @@ app = (() => {
             </ul>
             <span>Ver mas</span>
         </section>
-        <aside>
+        <aside id="contacto">
             <figure>
                 <img src="img/supermarket-949913_1920.jpg" alt="">
                 <div>

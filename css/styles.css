@@ -50,12 +50,14 @@ nav figure#logo {
     display: inline;
     color: white;
     position: absolute;
-    top: 5%;
-    left: 48%;
-    padding: 1rem;
+    left: 43%;
+    width: 15.5%;
     z-index: 70;
-    font-size: 2rem;
     cursor: pointer;
+}
+
+nav figure#logo img{
+    width: 100%;
 }
 
 nav div figure{
@@ -196,9 +198,14 @@ footer div > ul li{
         height: 10%;
         position: fixed;
         z-index: 99;
-      
-        
     }
+
+    nav figure#logo {
+        left: 40%;
+        width: 18%;
+
+    }
+    
 
     nav div ul {
         top: .3rem;
@@ -212,6 +219,16 @@ footer div > ul li{
         margin-left: 10%;
     }
 }
+
+@media (max-width: 1079px){
+ 
+   
+    nav figure#logo {
+        left: 40%;
+        width: 20%;
+
+    }
+
 
 @media (max-width: 950px){
     nav {
