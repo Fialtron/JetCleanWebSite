@@ -186,7 +186,7 @@ body #scene #left-zone .list li.item input[type="radio"] ~ .content {
   position: absolute;
  
   left: 30.8%;
-  top: -80%;
+  top: -90%;
   width: 68%;
   margin-top: 2%;
   -webkit-animation-duration: 0.75s;
