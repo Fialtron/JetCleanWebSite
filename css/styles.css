@@ -187,7 +187,6 @@ footer div > ul{
 
 footer div > ul li{
     margin:3%;
-    cursor: pointer;
 }
 
 @media (max-width: 1279px){

@@ -9,6 +9,7 @@ header {
 }
 
 header figure {
+    background-color: #000;
     margin: 0px;
     width: 100%;
     overflow: hidden;
@@ -16,6 +17,7 @@ header figure {
 
 header figure img {
     width: 100%;
+    opacity: .8;
 
 }
 

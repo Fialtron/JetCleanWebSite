@@ -41,20 +41,20 @@ app = (() => {
                 <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
                 <div>
                   <h1>Jet Clean</h1>
-                  <h2>A new cleanning concept</h2>
-                  <h3>We are experts about cleanning </h3>
+                  <h2>Un nuevo concepto de limpieza</h2>
+                  <h3>Somos expertos en limpieza</h3>
                 </div>
             </figure>
         </header>
         <section id="about-us">
             <div class="informacion">
-              <h2>About us</h2>
+              <h2>Sobre nosotros</h2>
               <div class="valores">
                 <figure>
                   <img src="img/canada.svg" alt="El nuevo concepto de limpieza">
                   <figcaption>
-                    <h3>All places</h3>
-                    <p>Descripcion del valor</p>
+                    <h3>En todos los lugares</h3>
+                    <p>Trabajando desde el 2015 contamos con la experiencia necesaria cubrir las necesidades de cada uno de nuestros clientes. Hacemos presencia en mas de 30 puntos al rededor del país.</p>
                   </figcaption>
                 </figure>
               </div>
@@ -62,8 +62,8 @@ app = (() => {
                 <figure>
                   <img src="img/24-horas.svg" alt="El nuevo concepto de limpieza">
                   <figcaption>
-                    <h3>Full time</h3>
-                    <p>Descripcion del valor</p>
+                    <h3>Horarios flexibles</h3>
+                    <p>Las necesidades de nuestros clientes nos han demostrado que en cualquier momento es necesario un servicio de limpieza. Por ello, ofrecemos nuestros servicios 24 horas los 7 días de la semana.</p>
                   </figcaption>
                 </figure>
               </div>
@@ -71,8 +71,8 @@ app = (() => {
                 <figure>
                   <img src="img/velocimetro.svg" alt="El nuevo concepto de limpieza">
                   <figcaption>
-                    <h3>Speed</h3>
-                    <p>Descripcion del valor</p>
+                    <h3>Velocidad</h3>
+                    <p>En cualquier momento puede ocurrir un accidente que necesite de una pronta solución. Por ello, nuestro servicio es eficaz y veloz sin perder la calidad característica de Jet Clean Multiservices.</p>
                   </figcaption>
                 </figure>
               </div>
@@ -80,31 +80,31 @@ app = (() => {
                 <figure>
                   <img src="img/equipo-de-limpieza.svg" alt="El nuevo concepto de limpieza">
                   <figcaption>
-                    <h3>Staff</h3>
-                    <p>Descripcion del valor</p>
+                    <h3>Nuestro equipo</h3>
+                    <p>Nuestro criterio de selección de personal nos permite garantizar la calidad de nuestros servicios. Nuestro equipo de trabajo conoce las herramientas y equipos necesarios para solucionar las necesidades de nuestros clientes.</p>
                   </figcaption>
                 </figure>
               </div>
-              <span>Ver mas</span>
+              <span onclick="app.displayAboutUs()">Ver mas</span>
             </div>
         </section>
         <section id="services">
 
-            <h2>Services</h2>
+            <h2>Servicios</h2>
             <ul>
                 <li>
                     <figure>
                       <img src="img/WhatsApp Image 2020-10-28 at 10.36.36 PM.jpeg" alt="El nuevo concepto de limpieza">
                     </figure>
                     <div>
-                      <h3>Pisos waxing</h3>
-                      <p>Descripcion del valor</p>
+                      <h3>Encerado de pisos</h3>
+                      <p>Al ingresar a su negocio, sus clientes se fijaran especialmente en el suelo por donde caminan. Por ello, el equipo de Jet Clean cuenta con el personal y las herramientas suficientes para cuidar y mantener relucientes sus pisos.  </p>
                     </div>
                 </li>
                 <li>
                     <div>
-                      <h3>Daily desinfection</h3>
-                      <p>Descripcion del valor</p>
+                      <h3>Desinfección diaria </h3>
+                      <p>Existen lugares que necesitan de una constante limpieza y desinfección para el trabajo optimo del establecimiento. Además, la situación generada por el COVID‑19 hace que establecimientos que no tenían este proceso, lo necesiten para cumplir con las medidas de bioseguridad. Nuestro servicio de desinfección cuenta con todos los estándares de calidad.</p>
                     </div>
                     <figure>
                       <img src="img/WhatsApp Image 2020-10-28 at 10.44.03 PM (3).jpeg" alt="El nuevo concepto de limpieza">
@@ -115,30 +115,30 @@ app = (() => {
                       <img src="img/WhatsApp Image 2020-10-28 at 10.40.37 PM.jpeg" alt="El nuevo concepto de limpieza">
                     </figure>
                     <div>
-                      <h3>Remove snow</h3>
-                      <p>Descripcion del valor</p>
+                      <h3>Limpieza de nieve </h3>
+                      <p>Climas fuertes como el invierno pueden obstaculizar a las personas que se movilicen. Impidiendo el correcto flujo de estas, además de generar retraso o accidentes. Pensando en esto, el equipo Jet Clean provee el servicio de remoción de nieve. </p>
                     </div>
                 </li>
             </ul>
-            <span>Ver mas</span>
+            <span onclick="app.displayServices()" >Ver mas</span>
         </section>
         <aside id="contacto">
             <figure>
-                <img src="img/supermarket-949913_1920.jpg" alt="">
+                <img src="img/WhatsApp Image 2020-10-01 at 11.24.53 AM (13).jpeg" alt="">
                 <div>
-                  <p>Close your eyes and breath</p>
+                  <p>Cierra tus ojos y respira</p>
                 </div>
             </figure>
         </aside>
         <section id="contact-us">
             <div>
-              <h2>Contact us</h2>
+              <h2>Contáctanos</h2>
               <form>
-                <input type="text" placeholder="Your full name">
-                <input type="text" placeholder="Email-address">
-                <input type="text" placeholder="Your message">
+                <input type="text" placeholder="Nombre completo">
+                <input type="text" placeholder="Correo electrónico">
+                <input type="text" placeholder="Hablenos sobre su necesidad">
               </form>
-              <button>Submit</button>
+              <button>Enviar</button>
             </div>
             <div>
               <img src="img/facebook.png" alt="">

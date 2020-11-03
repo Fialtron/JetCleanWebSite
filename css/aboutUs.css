@@ -8,10 +8,12 @@ header figure {
     margin: 0px;
     width: 100%;
     overflow: hidden;
+    background-color: black;
 }
 
 header figure img {
     width: 100%;
+    opacity: .8;
 
 }
 
@@ -299,7 +301,7 @@ section#findUs ul{
 
 section#findUs ul li{
     width: 100%;
-    background: yellow;
+    background: white;
     padding: 5% ;
     margin-bottom: 40%;
 }
