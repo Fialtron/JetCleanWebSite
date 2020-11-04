@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Raleway";
+      src: url(../fonts/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Major";
+      src: url(../fonts/MajorMonoDisplay-Regular.ttf) format("truetype");
+}
+
+body{
+    background-color: #FCCE00;
+}
+
+
+
+h1{
+    font-family: "Major";
+    font-size: xxx-large;
+}

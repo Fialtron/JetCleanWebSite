@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link type="text/css" rel="stylesheet" href="fonts/style.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link id="currentTransitionStyle" type="text/css" rel="stylesheet" href="css/index.css">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+
+
+
+    <script  src="js/jquery.js"></script>
+    <script  src="js/app.js"></script>
+    <script type="text/js" src="js/modernizr-custom.js"></script>
+
+    <title>Jet Clean Multiservices</title>
+</head>
+<body onload="app.init()">
+    <Nav>
+        <figure id="openMenu" onclick="app.displayMenu()">
+            <span class="icon-menu"></span>
+        </figure>
+
+        <figure id="logo" onclick="app.init()">
+            <img src="img/jetClean.svg" alt="El nuevo concepto de limpieza">
+        </figure>
+
+        <div id="menu_movil" class="menu_movil">
+            <figure id="closeMenu"  onclick="app.displayMenu()">
+                <span class="icon-cross"></span>
+            </figure>
+
+            <ul>
+                <li onclick="app.displayAboutUs()" >
+                    <a>Nosotros</a>
+                </li>
+                <li onclick="app.displayServices()">
+                    <a>Servicios</a>
+                </li>
+                <li onclick="app.init()">
+                    <a href="#contacto">Contáctenos</a>
+                </li>
+            </ul>
+        </div>
+    </Nav>
+
+    <div id="social">
+        <div><p>Contactenos</p></div>
+        <div>(+1) 555 555 555</div>
+    </div>
+
+    
+    <div id="contenido">
+    </div>
+
+
+    <footer>
+        <div>
+            <h4>Información de contacto</h4>
+            <ul>
+                <li>Dirección: 1679 conssesion 4 Road Virgil</li>
+                <li>Telefono: +1(289) 440-2188</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Terminos y condiciones </h4>
+            <h4>Creditos</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
