@@ -240,6 +240,11 @@ footer div > ul li{
     nav div ul {
         top: .5rem;
     }
+    nav figure#logo {
+        left: 42%;
+        width: 25%;
+
+    }
 
 }
 
@@ -268,7 +273,7 @@ footer div > ul li{
     nav figure#logo{
         position: absolute;
         margin: 0%;
-        width: 40%;
+        width: 30%;
         left:35%;
         top: 0%;
         margin-top: .2rem;
@@ -359,5 +364,40 @@ footer div > ul li{
 
     
 
+}
+
+@media (max-width: 567px){
+    nav {
+        background-color:  purple;
+    }
+
+    nav figure#logo{
+        width: 40%;
+        left:30%;
+    }
+
+}
+
+@media (max-width: 467px){
+    nav {
+        background-color:  peru;
+    }
+
+    nav figure#logo{
+        width: 50%;
+        left:28%;
+    }
+
+}
+
+@media (max-width: 367px){
+    nav {
+        background-color: plum;
+    }
+
+    nav figure#logo{
+        width: 60%;
+        left:25%;
+    }
 }
 
