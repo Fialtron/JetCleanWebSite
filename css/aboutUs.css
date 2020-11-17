@@ -52,7 +52,7 @@ header figure div h2{
     flex-flow: column nowrap;
     align-items: center;
     background: #000000;
-    padding: 0rem 10rem 0rem 10rem;
+    padding: 0% 10% 0% 10%;
 }
 
 
@@ -161,8 +161,8 @@ header figure div h2{
 }
 
 #col4{
-    height: 38rem;
-    top:245%;
+    height: 36rem;
+    top: 245% ;
     z-index: 2;
 }
 
