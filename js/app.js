@@ -178,7 +178,7 @@ app = (() => {
         <ul class="list">
           <li class="item">
             <input type="radio" id="radio_carpetCleaning" name="basic_carousel" checked="checked"/>
-            <label class="label_carpetCleaning" for="radio_carpetCleaning">Carpet Cleaning</label>
+            <label class="label_carpetCleaning" for="radio_carpetCleaning">Encerado de pisos</label>
             <div class="content ">
               <div class="why">
                 <img src="img/carpet.jpeg" alt="">

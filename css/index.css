@@ -41,6 +41,7 @@ header figure div h2{
     margin-bottom: 0rem;
     font-size: 4rem; 
 }
+
 header figure div h3{
      margin-top: 0rem;
      margin-bottom: 0rem;
@@ -190,7 +191,7 @@ section#services ul li div p{
 }
 
 section#services ul li:nth-child(2) figure{
-    background-color: blueviolet;
+   
     position: absolute;
     top: 0rem;
     left: 19rem;
@@ -236,7 +237,7 @@ section#services span:after{
 }
 
 aside{
-    background-color: #08080E;
+    background-color: black;
     width: 100%;
 }
 
@@ -420,7 +421,6 @@ section#contact-us div:nth-child(1) button{
     }
 
     section#services ul li {
-        background-color: blueviolet;
         position: relative;
         margin-top: 2rem ;
         margin-bottom: 2rem;
@@ -456,14 +456,11 @@ section#contact-us div:nth-child(1) button{
         margin-bottom: 2rem;
         
     }
-
-
-    
+  
     section#services ul li div p{
         margin-top: 1rem;
         margin-left: .5rem;
     }
-
 
     aside figure > div p{
         top: -33rem;
@@ -519,15 +516,214 @@ section#contact-us div:nth-child(1) button{
 
 
 @media (max-width: 567px){
+    header {
+        max-height: 35rem;
+    }
+
+    header figure div {    
+        top: -36rem;
+    }
+
+    header figure div h1{
+        font-size: 5rem;   
+    }
+      
+    header figure div h2{
+        margin-bottom: 0rem;
+        font-size: 3rem; 
+    }
+
+    section#about-us{
+        background-color:black;
+        width: 100%;
+        height: 70rem;
+    }
+    
+
+    section#about-us .informacion{
+        height: 65rem;
+        padding: 2rem;
+       
+    }
+
+    section#about-us .informacion div.valores{
+        width: 80%;
+        margin-left: 10%;    
+    }
+
+    section#about-us .informacion div.valores img{
+        width: 25%;
+        margin-left: 40%;
+        
+    }
+    
+    section#about-us .informacion div.valores figcaption{
+        text-align: center;
+    }
+    
+    section#about-us .informacion div.valores figcaption h3{
+        font-size: x-large;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left:10%;
+    }
+
+  
  
+    section#services ul li div{
+        left: 32.5%;
+        opacity: 1;
+    }
 
+    section#services ul li:nth-child(2) figure{
+        left: 60%;
+    }
+
+    aside figure {
+        width: 100%;
+        height: 22rem;
+        overflow: hidden;
+    }
+
+    aside figure > div p{
+        top: -20rem;
+        font-size: 4rem;
+    }
+
+    section#contact-us{
+        width: 100%;
+        height: 38rem;
+        padding-top:2rem;
+    }
+
+    section#contact-us div{
+        margin: 2% 0% 0% 13%;
+        top: -15% ;
+    }
+
+    section#contact-us div:nth-child(1){
+        background-color: #D9D9D9;
+        width: 90%;
+        height: 32rem;
+        float: left;
+        margin-left: 5%;
+        margin-right: 0%;
+        top: -20% ;
+    }
+
+    section#contact-us div:nth-child(1) h2{
+        text-align: center;
+        font-family: Open condensed bold;
+        font-size: xxx-large;
+        margin-bottom: .2%;
+    }
+
+    section#contact-us div:nth-child(1) input{
+        width: 85%;
+        display: inline-block;
+        margin-left: 7.5%;
+        margin-top: 5%;
+        height: 2.5rem;
+    }
+    
+    section#contact-us div:nth-child(1) input:nth-child(3){
+        height: 8rem;
+    }
+    
+    section#contact-us div:nth-child(1) button{
+        width: 85%;
+        margin-top: 6%;
+        margin-left: 7.5%;
+        height: 3rem;
+    }
 }
-
 
 @media (max-width: 467px){
 
+    section#contact-us{
+        width: 100%;
+        height: 42rem;
+        padding-top:2rem;
+    }
+
+    section#contact-us div{
+        margin: 5% 8% 0% 5%;
+        top: -15% ;
+    }
 }
 
 @media (max-width: 367px){
 
+    header {
+        max-height: 30rem;
+    }
+
+    header figure div {    
+        top: -36rem;
+    }
+
+    header figure div h1{
+        font-size: 4rem;   
+    }
+
+    header figure div h2,h3{
+        margin-left: 1rem;
+    }
+      
+    header figure div h2{
+        margin-bottom: 0rem;
+        font-size: 2rem; 
+    }
+
+    header figure div h3{
+        margin-bottom: 0rem;
+        font-size: 1.5rem; 
+    }
+
+
+
+    section#services ul li figure{
+        height: 17rem;
+    }
+
+    section#services ul li div{
+        height: 20rem;
+    }
+
+    section#services ul li:nth-child(2) figure{
+        top: 0rem;
+        width: 40%;
+        left: 64%;
+    }
+
+    section#services ul li:nth-child(2) div{
+        left: 0rem;
+        top: 0rem;
+        margin-top: 7rem ;
+        margin-bottom: 2rem;
+        height: 25rem;
+    }
+
+    aside {
+        display: none;
+    }
+
+    section#contact-us{
+        width: 100%;
+        height: 45rem;
+        padding-top:2rem;
+        margin-top: 0%;
+    }
+    section#contact-us div{
+        margin: 5% 8% 0% 5%;
+        top: 0% ;
+    }
+
+    section#contact-us div:nth-child(1){
+        top: 0% ;
+    }
+
+    section#contact-us div:nth-child(1) h2{
+        font-size: xx-large;   
+    }
 }

@@ -210,9 +210,6 @@ footer div > ul li{
         top: .3rem;
     }
 
-    footer div{
-        width: 40%;
-    }
 
     footer div:nth-child(1) {
         margin-left: 10%;
@@ -310,7 +307,7 @@ footer div > ul li{
 
         width: 80%;
         height: auto;
-        margin: auto;
+        margin-left: 8%;
     }
 
     figure#logomovil > img {
@@ -389,6 +386,19 @@ footer div > ul li{
         left:30%;
     }
 
+    footer{
+  
+        height: 100%;
+     
+    }
+    
+    footer div{
+        width: 60%;
+        height: 10rem;
+        margin-left: 20% ;
+    }
+
+
 }
 
 @media (max-width: 467px){
@@ -401,6 +411,7 @@ footer div > ul li{
         left:28%;
     }
 
+
 }
 
 @media (max-width: 367px){
@@ -412,5 +423,7 @@ footer div > ul li{
         width: 60%;
         left:25%;
     }
+
+
 }
 
