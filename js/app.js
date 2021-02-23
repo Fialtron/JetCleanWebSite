@@ -40,21 +40,29 @@ app = (() => {
             <figure>
                 <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
                 <div>
-                  <h1>Jet Clean</h1>
-                  <h2>Un nuevo concepto de limpieza</h2>
-                  <h3>Somos expertos en limpieza</h3>
+                  <h1>Jet Clean Multiservices</h1>
+                  <h2>NOBODY DOES IT LIKE US</h2>
+                  <h3>Experience the difference with us</h3>
                 </div>
             </figure>
         </header>
         <section id="about-us">
             <div class="informacion">
-              <h2>Sobre nosotros</h2>
+              <h2>About Us</h2>
               <div class="valores">
                 <figure>
                   <img src="img/canada.svg" alt="El nuevo concepto de limpieza">
                   <figcaption>
-                    <h3>En todos los lugares</h3>
-                    <p>Trabajando desde el 2015 contamos con la experiencia necesaria cubrir las necesidades de cada uno de nuestros clientes. Hacemos presencia en mas de 30 puntos al rededor del país.</p>
+                    <h3>Committed to quality</h3>
+                    <p>
+                      We are certified in the use of 
+                      Specialized Machinery and 
+                      equipment. Regardless of the 
+                      complexity of the project, we 
+                      have the personnel and 
+                      machinery necessary to carry 
+                      it out.
+                    </p>
                   </figcaption>
                 </figure>
               </div>
@@ -62,8 +70,15 @@ app = (() => {
                 <figure>
                   <img src="img/24-horas.svg" alt="El nuevo concepto de limpieza">
                   <figcaption>
-                    <h3>Horarios flexibles</h3>
-                    <p>Las necesidades de nuestros clientes nos han demostrado que en cualquier momento es necesario un servicio de limpieza. Por ello, ofrecemos nuestros servicios 24 horas los 7 días de la semana.</p>
+                    <h3>Flexibility</h3>
+                    <p>
+                      Jet Clean recognizes that not all 
+                      clients need the same services 
+                      or in the same periodicity.  
+                      Therefore, it offers a range of 
+                      variable contracts that 
+                      best meet the client's needs.
+                    </p>
                   </figcaption>
                 </figure>
               </div>
@@ -71,8 +86,14 @@ app = (() => {
                 <figure>
                   <img src="img/velocimetro.svg" alt="El nuevo concepto de limpieza">
                   <figcaption>
-                    <h3>Velocidad</h3>
-                    <p>En cualquier momento puede ocurrir un accidente que necesite de una pronta solución. Por ello, nuestro servicio es eficaz y veloz sin perder la calidad característica de Jet Clean Multiservices.</p>
+                    <h3>Speed</h3>
+                    <p>
+                      An accident can happen at any 
+                      time that needs a prompt solution. 
+                      Therefore, our service is efficient 
+                      and fast without losing the characteristic
+                       quality of Jet Clean Multiservices.
+                    </p>
                   </figcaption>
                 </figure>
               </div>
@@ -80,31 +101,56 @@ app = (() => {
                 <figure>
                   <img src="img/equipo-de-limpieza.svg" alt="El nuevo concepto de limpieza">
                   <figcaption>
-                    <h3>Nuestro equipo</h3>
-                    <p>Nuestro criterio de selección de personal nos permite garantizar la calidad de nuestros servicios. Nuestro equipo de trabajo conoce las herramientas y equipos necesarios para solucionar las necesidades de nuestros clientes.</p>
+                    <h3>Staff</h3>
+                    <p>
+                      We select personnel after 
+                      several interviews, ensuring
+                      that they have experience, 
+                      recommendations, an 
+                      impeccable background 
+                      and they know that 
+                      responsibility plays a huge 
+                      role in the job environment
+                    </p>
                   </figcaption>
                 </figure>
               </div>
-              <span onclick="app.displayAboutUs()">Ver mas</span>
+              <span onclick="app.displayAboutUs()">See more</span>
             </div>
         </section>
         <section id="services">
 
-            <h2>Servicios</h2>
+            <h2>Services</h2>
             <ul>
                 <li>
                     <figure>
                       <img src="img/WhatsApp Image 2020-10-28 at 10.36.36 PM.jpeg" alt="El nuevo concepto de limpieza">
                     </figure>
                     <div>
-                      <h3>Encerado de pisos</h3>
-                      <p>Al ingresar a su negocio, sus clientes se fijaran especialmente en el suelo por donde caminan. Por ello, el equipo de Jet Clean cuenta con el personal y las herramientas suficientes para cuidar y mantener relucientes sus pisos.  </p>
+                      <h3>Floor waxing</h3>
+                      <p>
+                        When entering your business, your 
+                        customers will pay special attention 
+                        to the floor they walk on. That's why the 
+                        Jet Clean team has the personnel and tools
+                        to take care of your floors and keep them
+                        sparkling clean.
+                      </p>
                     </div>
                 </li>
                 <li>
                     <div>
-                      <h3>Desinfección diaria </h3>
-                      <p>Existen lugares que necesitan de una constante limpieza y desinfección para el trabajo optimo del establecimiento. Además, la situación generada por el COVID‑19 hace que establecimientos que no tenían este proceso, lo necesiten para cumplir con las medidas de bioseguridad. Nuestro servicio de desinfección cuenta con todos los estándares de calidad.</p>
+                      <h3>Daily night and day cleaning 24/7 </h3>
+                      <p>
+                        There are places that need constant cleaning 
+                        and disinfection for the optimal work of the 
+                        establishment. In addition, the situation 
+                        generated by the COVID-19 makes establishments 
+                        that did not have this process, need it to 
+                        comply with biosecurity measures. Our 
+                        disinfection service has all the quality 
+                        standards.
+                      </p>
                     </div>
                     <figure>
                       <img src="img/WhatsApp Image 2020-10-28 at 10.44.03 PM (3).jpeg" alt="El nuevo concepto de limpieza">
@@ -115,30 +161,32 @@ app = (() => {
                       <img src="img/WhatsApp Image 2020-10-28 at 10.40.37 PM.jpeg" alt="El nuevo concepto de limpieza">
                     </figure>
                     <div>
-                      <h3>Limpieza de nieve </h3>
-                      <p>Climas fuertes como el invierno pueden obstaculizar a las personas que se movilicen. Impidiendo el correcto flujo de estas, además de generar retraso o accidentes. Pensando en esto, el equipo Jet Clean provee el servicio de remoción de nieve. </p>
+                      <h3>Snow removal and salting prevention</h3>
+                      <p>
+                        Strong weather such as winter can hinder people moving 
+                        around. Impeding the correct flow of these, in addition 
+                        to generating delays or accidents. With this in mind, 
+                        the Jet Clean team provides snow removal services. 
+                      </p>
                     </div>
                 </li>
             </ul>
-            <span onclick="app.displayServices()" >Ver mas</span>
+            <span onclick="app.displayServices()" >See more</span>
         </section>
         <aside id="contacto">
             <figure>
                 <img src="img/WhatsApp Image 2020-10-01 at 11.24.53 AM (13).jpeg" alt="">
-                <div>
-                  <p>Cierra tus ojos y respira</p>
-                </div>
             </figure>
         </aside>
         <section id="contact-us">
             <div>
-              <h2>Contáctanos</h2>
+              <h2>Contact us</h2>
               <form>
-                <input type="text" placeholder="Nombre completo">
-                <input type="text" placeholder="Correo electrónico">
-                <input type="text" placeholder="Hablenos sobre su necesidad">
+                <input type="text" placeholder="Full name">
+                <input type="text" placeholder="E-mail address">
+                <input type="text" placeholder="Tell us about your need">
               </form>
-              <button>Enviar</button>
+              <button>Send</button>
             </div>
             <div>
               <img src="img/facebook.png" alt="">
@@ -147,7 +195,7 @@ app = (() => {
               <img src="img/instagram.png" alt="">
             </div>
             <div>
-              <img src="img/whatsapp.png" alt="">
+              <a id="none" href="https://wa.me/573138087186" target="_blank"  > <img src="img/whatsapp.png" alt=""></a> 
             </div>
         </section>
     `);
@@ -165,7 +213,6 @@ app = (() => {
             <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
             <div>
                 <h2>Services</h2>
-                <h3>Close your eyes and breath</h3>
             </div>
         </figure>
     </header>
@@ -174,53 +221,159 @@ app = (() => {
       <section id="menu">
 
       <div id="scene">
+      
       <div id="left-zone">
         <ul class="list">
+
           <li class="item">
-            <input type="radio" id="radio_carpetCleaning" name="basic_carousel" checked="checked"/>
-            <label class="label_carpetCleaning" for="radio_carpetCleaning">Encerado de pisos</label>
+            <input type="radio" id="radio_Powerwash" name="basic_carousel" checked="checked"/>
+            <label class="label_Powerwash" for="radio_Powerwash">Power wash</label>
             <div class="content ">
               <div class="why">
                 <img src="img/carpet.jpeg" alt="">
-                <h2>¿Por que?</h2>
-                <p>The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)</p>
               </div>
               <div >
-                <h2>Nuestro trabajo</h2>
-                <p>The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)</p>
+                <h2>Our work</h2>
+                <p>
+                  Many times there is dirt that is impossible to remove with traditional methods. 
+                  Therefore, Jet Clean brings the technology and efficiency of the power wash to 
+                  eliminate those spaces that seem impossible to clean. 
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="item">
+            <input type="radio" id="radio_Floorwaxing" name="basic_carousel" />
+            <label class="label_Floorwaxing" for="radio_Floorwaxing">Floor waxing</label>
+            <div class="content ">
+              <div class="why">
+                <img src="img/carpet.jpeg" alt="">
               </div>
               <div >
-                <h2>Herramientas que usamos</h2>
-                <p>The garden strawberry (or simply strawberry /ˈstrɔːbᵊri/; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries)</p>
+                <h2>Our work</h2>
+                <p>
+                  When entering your business, your customers will pay special attention to the floor 
+                  they walk on. That's why the Jet Clean team has the personnel and tools to take care 
+                  of your floors and keep them sparkling clean. 
+                </p>
               </div>
-              
-              
             </div>
           </li>
+
           <li class="item">
-            <input type="radio" id="radio_A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa." name="basic_carousel" value="A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa."/>
-            <label class="label_banana" for="radio_A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.">banana</label>
-            <div class="content content_banana"><span class="picto"></span>
-              <h1>banana</h1>
-              <p>A banana is an edible fruit, botanically a berry, produced by several kinds of large herbaceous flowering plants in the genus Musa.</p>
+            <input type="radio" id="radio_Graffitiremoval" name="basic_carousel" />
+            <label class="label_Graffitiremoval" for="radio_Graffitiremoval">Graffiti removal</label>
+            <div class="content ">
+              <div class="why">
+                <img src="img/carpet.jpeg" alt="">
+              </div>
+              <div >
+                <h2>Our work</h2>
+                <p>
+                  Jet clean recognizes that there are different reasons why our clients might take this 
+                  service; to make a new graffiti, paint a mural or simply free up space.
+                  Regardless of the reason jet clean offers graffiti removal services for each client 
+                  to decide what to do next.
+                </p>
+              </div>
             </div>
           </li>
+
           <li class="item">
-            <input type="radio" id="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." name="basic_carousel" value="The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus."/>
-            <label class="label_apple" for="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.">apple</label>
-            <div class="content content_apple"><span class="picto"></span>
-              <h1>apple</h1>
-              <p>The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.</p>
+            <input type="radio" id="radio_Carpetcleaning" name="basic_carousel" />
+            <label class="label_Carpetcleaning" for="radio_Carpetcleaning">Carpet cleaning</label>
+            <div class="content ">
+              <div class="why">
+                <img src="img/carpet.jpeg" alt="">
+              </div>
+              <div >
+                <h2>Our work</h2>
+                <p>
+                  Every space is important and should be taken care of. However, carpets need special
+                  care and cleaning. For this reason, Jet Clean has the technology and specialized 
+                  personnel to clean and care for these spaces with carpets.
+                </p>
+              </div>
             </div>
           </li>
+
           <li class="item">
-            <input type="radio" id="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae." name="basic_carousel" value="The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae."/>
-            <label class="label_orange" for="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.">orange</label>
-            <div class="content content_orange"><span class="picto"></span>
-              <h1>orange</h1>
-              <p>The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.</p>
+            <input type="radio" id="radio_Windowcleaning" name="basic_carousel"/>
+            <label class="label_Windowcleaning" for="radio_Windowcleaning">Window cleaning</label>
+            <div class="content ">
+              <div class="why">
+                <img src="img/carpet.jpeg" alt="">
+              </div>
+              <div >
+                <h2>Our work</h2>
+                <p>
+                  Illuminating spaces is not the only job of windows; providing security, confidence 
+                  and style is too.These reasons are enough to keep them clean and cared for. Jet clean 
+                  has the right products and cleaning processes for windows. 
+                </p>
+              </div>
             </div>
           </li>
+
+          <li class="item">
+            <input type="radio" id="radio_Personnellogisticsforcompanies" name="basic_carousel"/>
+            <label class="label_Personnellogisticsforcompanies" for="radio_Personnellogisticsforcompanies">Personnel logistics for companies</label>
+            <div class="content ">
+              <div class="why">
+                <img src="img/carpet.jpeg" alt="">
+              </div>
+              <div >
+                <h2>Our work</h2>
+                <p>
+                  Managing all aspects of a company can become tedious; large events, simultaneous 
+                  meetings, services in complex schedules make it difficult to manage the company. 
+                  For this reason, Jet Clean offers the service of personnel logistics management, 
+                  so each client can focus and fulfill all scheduled events without losing the quality 
+                  of its service. 
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="item">
+            <input type="radio" id="radio_Dailynightanddaycleaning24/7" name="basic_carousel"/>
+            <label class="label_Dailynightanddaycleaning24/7" for="radio_Dailynightanddaycleaning24/7">Daily night and day cleaning 24/7</label>
+            <div class="content ">
+              <div class="why">
+                <img src="img/carpet.jpeg" alt="">
+              </div>
+              <div >
+                <h2>Our work</h2>
+                <p>
+                  There are places that need constant cleaning and disinfection for the optimal work of
+                  the establishment. In addition, the situation generated by the COVID-19 makes 
+                  establishments that did not have this process, need it to comply with biosecurity 
+                  measures. Our disinfection service has all the quality standards. 
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="item">
+            <input type="radio" id="radio_Snowremovalandsaltingprevention" name="basic_carousel"/>
+            <label class="label_Snowremovalandsaltingprevention" for="radio_Snowremovalandsaltingprevention">Snow removal and salting prevention</label>
+            <div class="content ">
+              <div class="why">
+                <img src="img/carpet.jpeg" alt="">
+              </div>
+              <div >
+                <h2>Our work</h2>
+                <p>
+                  Strong weather such as winter can hinder people moving around. Impeding the correct 
+                  flow of these, in addition to generating delays or accidents. With this in mind, the
+                  Jet Clean team provides snow removal services. 
+                </p>
+              </div>
+            </div>
+          </li>
+
         </ul>
       </div>
       <div id="middle-border"></div>
@@ -235,7 +388,7 @@ app = (() => {
 
 
     <div id="slider">
-    <h2>Resultados</h2> 
+    <h2>Results</h2> 
         <div class="wrapper">
   <input checked type=radio name="slider" id="slide1" />
   <input type=radio name="slider" id="slide2" />
@@ -303,6 +456,7 @@ app = (() => {
   <!-- .slider-dot-control -->
 </div>
     </div>
+
     `);
   
 
@@ -338,7 +492,64 @@ app = (() => {
                 </figure>
                 <div>
                     <h3>About Us</h3>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, amet asperiores cupiditate ducimus eum nostrum placeat tempore. Consequatur minima non nostrum numquam placeat quibusdam repellendus velit voluptatem? Unde, vitae voluptatem.</p>
+                    <p>
+                      Through a certified 
+                      administrative management, 
+                      with a professional team and a 
+                      solid infrastructure. Jet Clean 
+                      provides comprehensive 
+                      cleaning solutions by providing 
+                      permanent staff to attend all 
+                      cleaning and service areas. 
+                    </p>
+                    <p>
+                      We are certified in the use of 
+                      Specialized Machinery and 
+                      equipment. Regardless of the 
+                      complexity of the project, we 
+                      have the personnel and 
+                      machinery necessary to carry 
+                      it out.  From electrical repairs to
+                      cleaning roofs and facades. At
+                      Jet Clean you can count on all the 
+                      security, trust and support of 
+                      our team.
+                    </p>
+                    <p>
+                      Jet Clean recognizes that not all 
+                      clients need the same services 
+                      or in the same periodicity.  
+                      Therefore, it offers a range of 
+                      variable contracts that 
+                      best meet the client's needs, 
+                      without neglecting the viability 
+                      of the work of the health 
+                      professionals who 
+                      carefully serve our clients. 
+                    </p>
+                    <p>
+                      We keep the facilities free 
+                      of pathogenic germs and 
+                      reducing microbism in 
+                      homes or in commercial 
+                      industrial enterprises.
+                    </p>
+                    <p>
+                      We select personnel after 
+                      several interviews, ensuring
+                      that they have experience, 
+                      recommendations, an 
+                      impeccable background 
+                      and they know that 
+                      responsibility plays a huge 
+                      role in the job environment 
+                    </p>
+                    <p>
+                      We sanitize and do general
+                      cleaning in big companies,
+                      living areas, commercial 
+                      markets, etc. 
+                    </p>
                 </div>
             </div>
             
@@ -351,8 +562,14 @@ app = (() => {
                 <li>
                     
                     <div>
-                        <h4>Persona 1</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut cumque earum et ex illo maiores quaerat repudiandae sunt tenetur? Consequuntur dolor earum et, fuga in minus mollitia nisi pariatur?</p>
+                        <h4>Business</h4>
+                        <p>We offer cleaning services 
+                        to medium and large 
+                        companies
+                        · Residential complexes
+                        · Residential or building 
+                          cleaning services.
+                        · Industrial parks.</p>
                     </div>
 
                     <figure>
@@ -362,8 +579,13 @@ app = (() => {
                 </li>
                 <li>
                     <div>
-                        <h4>Persona 2</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cumque doloremque exercitationem, fuga, ipsum iste laudantium molestias necessitatibus odio placeat quas quibusdam, quisquam quos reiciendis repudiandae vel velit vitae voluptas.</p>
+                        <h4>Educational institutions</h4>
+                        <p>We offer cleaning services 
+                        to educational institutions 
+                        nationwide.  
+                        · Schools.
+                        · Universities.
+                        · Technological Institutions</p>
                     </div>
                     <figure>
                       <img src="img/persona2.jpg" alt="">
@@ -373,8 +595,15 @@ app = (() => {
                 <li>
                     
                     <div>
-                        <h4>Persona 3</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda consectetur deleniti dolores ex officia omnis quos repudiandae voluptatibus. Aliquam aliquid in ipsa libero nihil quaerat quam sit totam.</p>
+                        <h4>Factories</h4>
+                        <p>We offer cleaning services 
+                        to factories nationwide, 
+                        with complete cleaning 
+                        and gardening equipment.  
+                        · Malls.
+                        · Shopping centers.
+                        · Public use areas.
+                        · Administrative areas.</p>
                     </div>
                     <figure >
                       <img src="img/persona3.jpg" alt="">
@@ -384,7 +613,7 @@ app = (() => {
             </section>
             <div id="col4" class="col"></div>
             <section id="findUs">
-                <h1>Encuentranos</h1>
+                <h1>Find us</h1>
                 <figure id="map">
                   <img src="img/mapa.png" alt="">
                 </figure>
