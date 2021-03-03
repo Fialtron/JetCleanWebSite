@@ -1,61 +1,17 @@
-header {
-    height: 30%;
-    max-height: 45rem;
-    overflow: hidden;
-}
-
-header figure {
-    margin: 0px;
-    width: 100%;
-    overflow: hidden;
-    background-color: black;
-}
-
-header figure img {
-    width: 100%;
-    opacity: .8;
-
-}
-
-header figure div {
-    position: relative;
-    top: -40rem;
-    font-family: Squada !important;
-    font-size: 2rem;
-    color: white;
-}
-
-header figure div h1{
-    text-transform: uppercase;
-    margin: 0rem;
-    margin-left: 3rem;
-    text-decoration: wavy;
-    font-size: 6rem;
-}
-
-header figure div h2{
-    margin-left: 3rem;
-    margin-bottom: 0rem;
-    font-size: 3rem;
-    font-family: Raleway;
-}
-
-
 #wrapper {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
 }
 
+
 #mainGrid {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     background: #000000;
-    padding: 0% 10% 0% 10%;
+    padding: 15% 10% 10% 10%;
 }
-
-
 
 .perfect-center{
     display: flex;
@@ -131,6 +87,11 @@ header figure div h2{
 
 }
 
+#about-us div p{
+    padding: 3% 0% 0% 0%;
+
+}
+
 
 #banner h3{
     margin-left: 0;
@@ -149,25 +110,26 @@ header figure div h2{
 }
 
 #col2{
-    height: 20rem;
+    height: 22rem;
     left: 70%;
-    top:190%;
+    top:122%;
     
 }
 #col3{
-    height: 17rem;
+    height: 22rem;
     left: 23%;
-    top:185%;
+    top:122%;
 }
 
 #col4{
-    height: 36rem;
-    top: 245% ;
+    height: 40rem;
+    top: 180% ;
     z-index: 2;
 }
 
 section#testimonials{
     position: relative;
+    width: 100%;
 }
 
 section#testimonials ul{
@@ -187,7 +149,7 @@ section#testimonials ul li div{
     display: flex;
     background: aliceblue;
     height: 15rem;
-    width: 80%;
+    width: 70%;
     position: relative;
     margin: auto;
     z-index: 20;
@@ -195,7 +157,7 @@ section#testimonials ul li div{
 }
 
 section#testimonials ul li:nth-child(1) div{
-    left: 3%;
+    left: 0%;
 }
 
 section#testimonials ul li div h4{
@@ -220,50 +182,50 @@ section#testimonials ul figure img{
 
 section#testimonials ul li div h4{
     margin-top: 5% !important;
-    margin-left: 20%;
+    margin-left: 25%;
     font-family: Open condensed bold;
     font-size: large;
     
 }
 
 section#testimonials ul li div p{
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 section#testimonials ul li:nth-child(2) div h4{
 
-    margin-left: 5%;
+    margin-left: 10%;
     font-family: Open condensed bold;
     font-size: large;
     
 }
 
 section#testimonials ul li:nth-child(2) div p{
-    margin-left: 5%;
-    max-width: 70%;
+    margin-left: 10%;
+    max-width: 80%;
 }
 
 section#testimonials ul li:nth-child(2) figure{
     bottom: 130%;
-    left: 73%;
+    left: 70%;
 }
 
 section#testimonials ul li:nth-child(1) figure{
     bottom: 130%;
-    left: 7%;
+    left: 6%;
 }
 
 section#testimonials ul li:nth-child(2) figure{
     bottom: 130%;
-    left: 73%;
+    left: 70%;
 }
 section#testimonials ul li:nth-child(3) div{
-    left:3%
+    left:0%
 }
 
 section#testimonials ul li:nth-child(3) figure{
     bottom: 130%;
-    left: 7%;
+    left: 6%;
 }
 
 section#findUs{
@@ -275,7 +237,11 @@ section#findUs{
 }
 
 section#findUs h1{
+    position: relative;
+    font-family: Squada !important;
     color: white;
+    font-size: 4rem !important;
+    margin: 5%;
 }
 
 #map{

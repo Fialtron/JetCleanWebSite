@@ -181,12 +181,13 @@ app = (() => {
         <section id="contact-us">
             <div>
               <h2>Contact us</h2>
-              <form>
-                <input type="text" placeholder="Full name">
-                <input type="text" placeholder="E-mail address">
-                <input type="text" placeholder="Tell us about your need">
+              <form id="myForm">
+                <input type="text" placeholder="Full name" name="from_name">
+                <input type="text" placeholder="E-mail address" name="email">
+                <input type="text" placeholder="Tell us about your need" name="message">
               </form>
-              <button>Send</button>
+              <button onclick="app.sendEmail()" >Send</button>
+              
             </div>
             <div>
               <img src="img/facebook.png" alt="">
@@ -208,253 +209,171 @@ app = (() => {
     cleanHTMLTags(content);
     document.getElementById("currentTransitionStyle").setAttribute("href", "css/services.css");
     content.append(`
-     <header>
-        <figure>
-            <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
-            <div>
-                <h2>Services</h2>
-            </div>
-        </figure>
-    </header>
     <div id="servicesContainer">
+      <div>
+        <h2>SERVICES</h2>
+      </div>
 
       <section id="menu">
+        <div id="scene">
+        
+        <div id="left-zone">
+          <ul class="list">
 
-      <div id="scene">
-      
-      <div id="left-zone">
-        <ul class="list">
+            <li class="item">
+              <input type="radio" id="radio_Powerwash" name="basic_carousel" checked="checked"/>
+              <label class="label_Powerwash" for="radio_Powerwash">Power wash</label>
+              <div class="content ">
+                <div class="why">
+                  <img src="img/wash.jpeg" alt="">
+                  <h3>Our work</h3>
+                  <p>
+                    Many times there is dirt that is impossible to remove with traditional methods. 
+                    Therefore, Jet Clean brings the technology and efficiency of the power wash to 
+                    eliminate those spaces that seem impossible to clean. 
+                  </p>
+                </div>
+              </div>
+            </li>
 
-          <li class="item">
-            <input type="radio" id="radio_Powerwash" name="basic_carousel" checked="checked"/>
-            <label class="label_Powerwash" for="radio_Powerwash">Power wash</label>
-            <div class="content ">
-              <div class="why">
-                <img src="img/carpet.jpeg" alt="">
+            <li class="item">
+              <input type="radio" id="radio_Floorwaxing" name="basic_carousel" />
+              <label class="label_Floorwaxing" for="radio_Floorwaxing">Floor waxing</label>
+              <div class="content ">
+                <div class="why">
+                  <img src="img/waxing.jpeg" alt="">
+                  <h3>Our work</h3>
+                  <p>
+                    When entering your business, your customers will pay special attention to the floor 
+                    they walk on. That's why the Jet Clean team has the personnel and tools to take care 
+                    of your floors and keep them sparkling clean. 
+                  </p>
+                </div>
               </div>
-              <div >
-                <h2>Our work</h2>
-                <p>
-                  Many times there is dirt that is impossible to remove with traditional methods. 
-                  Therefore, Jet Clean brings the technology and efficiency of the power wash to 
-                  eliminate those spaces that seem impossible to clean. 
-                </p>
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="item">
-            <input type="radio" id="radio_Floorwaxing" name="basic_carousel" />
-            <label class="label_Floorwaxing" for="radio_Floorwaxing">Floor waxing</label>
-            <div class="content ">
-              <div class="why">
-                <img src="img/carpet.jpeg" alt="">
+            <li class="item">
+              <input type="radio" id="radio_Graffitiremoval" name="basic_carousel" />
+              <label class="label_Graffitiremoval" for="radio_Graffitiremoval">Graffiti removal</label>
+              <div class="content ">
+                <div class="why">
+                  <img src="img/carpet.jpeg" alt="">
+                  <h3>Our work</h3>
+                  <p>
+                    Jet clean recognizes that there are different reasons why our clients might take this 
+                    service; to make a new graffiti, paint a mural or simply free up space.
+                    Regardless of the reason jet clean offers graffiti removal services for each client 
+                    to decide what to do next.
+                  </p>
+                </div>
               </div>
-              <div >
-                <h2>Our work</h2>
-                <p>
-                  When entering your business, your customers will pay special attention to the floor 
-                  they walk on. That's why the Jet Clean team has the personnel and tools to take care 
-                  of your floors and keep them sparkling clean. 
-                </p>
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="item">
-            <input type="radio" id="radio_Graffitiremoval" name="basic_carousel" />
-            <label class="label_Graffitiremoval" for="radio_Graffitiremoval">Graffiti removal</label>
-            <div class="content ">
-              <div class="why">
-                <img src="img/carpet.jpeg" alt="">
+            <li class="item">
+              <input type="radio" id="radio_Carpetcleaning" name="basic_carousel" />
+              <label class="label_Carpetcleaning" for="radio_Carpetcleaning">Carpet cleaning</label>
+              <div class="content ">
+                <div class="why">
+                  <img src="img/carpet.jpeg" alt="">
+                  <h3>Our work</h3>
+                  <p>
+                    Every space is important and should be taken care of. However, carpets need special
+                    care and cleaning. For this reason, Jet Clean has the technology and specialized 
+                    personnel to clean and care for these spaces with carpets.
+                  </p>
+                </div>
               </div>
-              <div >
-                <h2>Our work</h2>
-                <p>
-                  Jet clean recognizes that there are different reasons why our clients might take this 
-                  service; to make a new graffiti, paint a mural or simply free up space.
-                  Regardless of the reason jet clean offers graffiti removal services for each client 
-                  to decide what to do next.
-                </p>
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="item">
-            <input type="radio" id="radio_Carpetcleaning" name="basic_carousel" />
-            <label class="label_Carpetcleaning" for="radio_Carpetcleaning">Carpet cleaning</label>
-            <div class="content ">
-              <div class="why">
-                <img src="img/carpet.jpeg" alt="">
+            <li class="item">
+              <input type="radio" id="radio_Windowcleaning" name="basic_carousel"/>
+              <label class="label_Windowcleaning" for="radio_Windowcleaning">Window cleaning</label>
+              <div class="content ">
+                <div class="why">
+                  <img src="img/window.jpeg" alt="">
+                  <h3>Our work</h3>
+                  <p>
+                    Illuminating spaces is not the only job of windows; providing security, confidence 
+                    and style is too.These reasons are enough to keep them clean and cared for. Jet clean 
+                    has the right products and cleaning processes for windows. 
+                  </p>
+                </div>
               </div>
-              <div >
-                <h2>Our work</h2>
-                <p>
-                  Every space is important and should be taken care of. However, carpets need special
-                  care and cleaning. For this reason, Jet Clean has the technology and specialized 
-                  personnel to clean and care for these spaces with carpets.
-                </p>
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="item">
-            <input type="radio" id="radio_Windowcleaning" name="basic_carousel"/>
-            <label class="label_Windowcleaning" for="radio_Windowcleaning">Window cleaning</label>
-            <div class="content ">
-              <div class="why">
-                <img src="img/carpet.jpeg" alt="">
+            <li class="item">
+              <input type="radio" id="radio_Personnellogisticsforcompanies" name="basic_carousel"/>
+              <label class="label_Personnellogisticsforcompanies" for="radio_Personnellogisticsforcompanies">Personnel logistics for companies</label>
+              <div class="content ">
+                <div class="why">
+                  <img src="img/personel.jpeg" alt="">
+                  <h3>Our work</h3>
+                  <p>
+                    Managing all aspects of a company can become tedious; large events, simultaneous 
+                    meetings, services in complex schedules make it difficult to manage the company. 
+                    For this reason, Jet Clean offers the service of personnel logistics management, 
+                    so each client can focus and fulfill all scheduled events without losing the quality 
+                    of its service. 
+                  </p>
+                </div>
               </div>
-              <div >
-                <h2>Our work</h2>
-                <p>
-                  Illuminating spaces is not the only job of windows; providing security, confidence 
-                  and style is too.These reasons are enough to keep them clean and cared for. Jet clean 
-                  has the right products and cleaning processes for windows. 
-                </p>
-              </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="item">
-            <input type="radio" id="radio_Personnellogisticsforcompanies" name="basic_carousel"/>
-            <label class="label_Personnellogisticsforcompanies" for="radio_Personnellogisticsforcompanies">Personnel logistics for companies</label>
-            <div class="content ">
-              <div class="why">
-                <img src="img/carpet.jpeg" alt="">
+            <li class="item">
+              <input type="radio" id="radio_Dailynightanddaycleaning24/7" name="basic_carousel"/>
+              <label class="label_Dailynightanddaycleaning24/7" for="radio_Dailynightanddaycleaning24/7">Daily night and day cleaning 24/7</label>
+              <div class="content ">
+                <div class="why">
+                  <img src="img/daily.jpeg" alt="">
+                  <h3>Our work</h3>
+                  <p>
+                    There are places that need constant cleaning and disinfection for the optimal work of
+                    the establishment. In addition, the situation generated by the COVID-19 makes 
+                    establishments that did not have this process, need it to comply with biosecurity 
+                    measures. Our disinfection service has all the quality standards. 
+                  </p>
+                </div>
               </div>
-              <div >
-                <h2>Our work</h2>
-                <p>
-                  Managing all aspects of a company can become tedious; large events, simultaneous 
-                  meetings, services in complex schedules make it difficult to manage the company. 
-                  For this reason, Jet Clean offers the service of personnel logistics management, 
-                  so each client can focus and fulfill all scheduled events without losing the quality 
-                  of its service. 
-                </p>
-              </div>
+            </li>
 
-            </div>
-          </li>
+            <li class="item">
+              <input type="radio" id="radio_Snowremovalandsaltingprevention" name="basic_carousel"/>
+              <label class="label_Snowremovalandsaltingprevention" for="radio_Snowremovalandsaltingprevention">Snow removal and salting prevention</label>
+              <div class="content ">
+                <div class="why">
+                  <img src="img/snow.png" alt="">
+                  <h3>Our work</h3>
+                  <p>
+                    Strong weather such as winter can hinder people moving around. Impeding the correct 
+                    flow of these, in addition to generating delays or accidents. With this in mind, the
+                    Jet Clean team provides snow removal services. 
+                  </p>
+                </div>
+              </div>
+            </li>
 
-          <li class="item">
-            <input type="radio" id="radio_Dailynightanddaycleaning24/7" name="basic_carousel"/>
-            <label class="label_Dailynightanddaycleaning24/7" for="radio_Dailynightanddaycleaning24/7">Daily night and day cleaning 24/7</label>
-            <div class="content ">
-              <div class="why">
-                <img src="img/carpet.jpeg" alt="">
-              </div>
-              <div >
-                <h2>Our work</h2>
-                <p>
-                  There are places that need constant cleaning and disinfection for the optimal work of
-                  the establishment. In addition, the situation generated by the COVID-19 makes 
-                  establishments that did not have this process, need it to comply with biosecurity 
-                  measures. Our disinfection service has all the quality standards. 
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li class="item">
-            <input type="radio" id="radio_Snowremovalandsaltingprevention" name="basic_carousel"/>
-            <label class="label_Snowremovalandsaltingprevention" for="radio_Snowremovalandsaltingprevention">Snow removal and salting prevention</label>
-            <div class="content ">
-              <div class="why">
-                <img src="img/carpet.jpeg" alt="">
-              </div>
-              <div >
-                <h2>Our work</h2>
-                <p>
-                  Strong weather such as winter can hinder people moving around. Impeding the correct 
-                  flow of these, in addition to generating delays or accidents. With this in mind, the
-                  Jet Clean team provides snow removal services. 
-                </p>
-              </div>
-            </div>
-          </li>
-
-        </ul>
+          </ul>
+        </div>
+        <div id="middle-border"></div>
+        <div id="right-zone"></div>
       </div>
-      <div id="middle-border"></div>
-      <div id="right-zone"></div>
-    </div>
     </section>
   
 
-
-
-
-
-
     <div id="slider">
-    <h2>Results</h2> 
-        <div class="wrapper">
-  <input checked type=radio name="slider" id="slide1" />
-  <input type=radio name="slider" id="slide2" />
-  <input type=radio name="slider" id="slide3" />
-  <input type=radio name="slider" id="slide4" />
-  <input type=radio name="slider" id="slide5" />
+      <h2>Results</h2> 
 
-  <div class="slider-wrapper">
-    <div class=inner>
-      <article>
-        <div class="info top-left">
-          <h3></h3>
-        </div>
-        <img src="img/slider/0.jpeg" />
-      </article>
 
-      <article>
-        <div class="info bottom-right">
-          <h3></h3>
-        </div>
-        <img src="img/slider/1.jpeg" />
-      </article>
+    <div id="slider2">
+    
+      <i>
+      <input checked type="radio" name="s" class="bg1"  title="Random Picture 1">
+      <input type="radio" name="s" class="bg2" title="Random Picture 2">
+      <input type="radio" name="s" class="bg3" title="Random Picture 3">
+      <input type="radio" name="s" class="bg4" title="Random Picture 4">
+      <input type="radio" name="s" class="bg5" title="Random Picture 5">
+      </i>
 
-      <article>
-        <div class="info bottom-left">
-          <h3></h3>
-        </div>
-        <img src="img/slider/3.jpeg" />
-      </article>
-
-      <article>
-        <div class="info top-right">
-          <h3></h3>
-        </div>
-        <img src="img/slider/8.jpeg" />
-      </article>
-
-      <article>
-        <div class="info bottom-left">
-          <h3></h3>
-        </div>
-        <img src="img/slider/10.jpeg"/>
-      </article>
-    </div>
-    <!-- .inner -->
-  </div>
-  <!-- .slider-wrapper -->
-
-  <div class="slider-prev-next-control">
-    <label for=slide1><img src="img/flecha-izquierda.svg"/></label>
-    <label for=slide2><img src="img/proximo.svg"/></label>
-    <label for=slide3><img src="img/proximo.svg"/></label>
-    <label for=slide4><img src="img/flecha-izquierda.svg"/></label>
-    <label for=slide5><img src="img/flecha-izquierda.svg"/></label>
-  </div>
-  <!-- .slider-prev-next-control -->
-
-  <div class="slider-dot-control">
-    <label for=slide1></label>
-    <label for=slide2></label>
-    <label for=slide3></label>
-    <label for=slide4></label>
-    <label for=slide5></label>
-  </div>
-  <!-- .slider-dot-control -->
-</div>
     </div>
 
     `);
@@ -468,19 +387,10 @@ app = (() => {
     document.getElementById("currentTransitionStyle").setAttribute("href", "css/aboutUs.css");
     cleanHTMLTags(content);
     content.append(`
-    <header>
-        <figure>
-            <img src="img/Aspiradora.jpg" alt="El nuevo concepto de limpieza">
-            <div>
-                <h1>The new cleaning concept</h1>
-                <h2>You can fell it with all your senses</h2>
-            </div>
-        </figure>
-    </header>
     <div id="mainGrid">
             <div id="banner" class="perfect-center">
                 <h3>JET CLEAN</h3>
-                <p>CLOSE YOUR EYES AND BREATH</p>
+                <p>NOBODY DOES IT LIKE US</p>
             </div>
             
             <div id="col1" class="col">
@@ -566,9 +476,12 @@ app = (() => {
                         <p>We offer cleaning services 
                         to medium and large 
                         companies
+                        <br/>  
                         · Residential complexes
+                        <br/>  
                         · Residential or building 
                           cleaning services.
+                        <br/>  
                         · Industrial parks.</p>
                     </div>
 
@@ -582,9 +495,12 @@ app = (() => {
                         <h4>Educational institutions</h4>
                         <p>We offer cleaning services 
                         to educational institutions 
-                        nationwide.  
+                        nationwide.
+                        <br/>  
                         · Schools.
+                        <br/>  
                         · Universities.
+                        <br/>  
                         · Technological Institutions</p>
                     </div>
                     <figure>
@@ -593,16 +509,19 @@ app = (() => {
 
                 </li>
                 <li>
-                    
                     <div>
                         <h4>Factories</h4>
                         <p>We offer cleaning services 
                         to factories nationwide, 
                         with complete cleaning 
-                        and gardening equipment.  
+                        and gardening equipment.
+                        <br/>  
                         · Malls.
+                        <br/> 
                         · Shopping centers.
+                        <br/> 
                         · Public use areas.
+                        <br/> 
                         · Administrative areas.</p>
                     </div>
                     <figure >
@@ -613,7 +532,7 @@ app = (() => {
             </section>
             <div id="col4" class="col"></div>
             <section id="findUs">
-                <h1>Find us</h1>
+                <h1>FIND US</h1>
                 <figure id="map">
                   <img src="img/mapa.png" alt="">
                 </figure>
@@ -644,11 +563,13 @@ app = (() => {
     init: () => {
       alertSize();
       insertMainSection();
-      },
+    },
+
     displayServices: () => {
       alertSize();
       insertServicesSection();
     },
+
     displayAboutUs:() => {
       alertSize();
       insertAboutUsSection();
@@ -663,6 +584,17 @@ app = (() => {
           menu.style.display = 'none';
       }
    },
+
+   sendEmail(){
+    const formulario = document.getElementById("myForm");
+    emailjs.sendForm('service_ryot351', 'template_827qyud', formulario ).then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+
+   }
+
   }
   
 })();
