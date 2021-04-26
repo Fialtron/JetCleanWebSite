@@ -87,8 +87,8 @@ nav div ul li{
 }
 
 nav div ul li:hover{
-    background-color:#A88900 ;
-    color: white !important;
+    background-color:black ;
+    color: black !important;
 }
 
 nav div ul li:hover a{
@@ -157,7 +157,9 @@ figure{
 }
 
 footer{
-    background-color: #F5C700;
+    /*#F5C700 */
+    background-color: #FCCE00;
+    color: black;
     width: 100%;
     height: 15rem;
     padding-top: 2rem;
