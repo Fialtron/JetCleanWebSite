@@ -261,44 +261,23 @@ section#findUs h1{
 section#findUs ul{
     list-style-type: none;
     position: relative;
-    top: -9rem;
-    left: -48%;
+    top: 0rem;
+    left: -31%;
 }
 
 section#findUs ul li{
     width: 100%;
     background: white;
-    padding: 5% ;
-    margin-bottom: 40%;
+    padding: 2% ;
+    margin-bottom: 1rem;
+    border: .5rem solid  #FCCE00 ;
 }
 
 section#findUs p{
     padding-top: 8%;
     height: 2.8rem;
     text-align: center;
-    
-    
 }
-
-#icons{
-    display: none;
-    flex-flow: row wrap;
-    align-content: space-between;
-    justify-content: center;
-    position: relative;
-    top: -22rem;
-    left: 15%;
-    width: 183%;
-
-}
-
-#icons figure{
-    background: darkorange;
-    width: 8%;
-    height: 9rem;
-    margin-right: 2%;
-}
-
 
 @media screen and (max-width: 1279px){
 
@@ -424,7 +403,9 @@ section#findUs p{
         bottom: 100%;
         left: 5%;
     }
-
+    section#findUs ul{  
+        left: -25%;
+    }
 
 }
 
@@ -447,6 +428,8 @@ section#findUs p{
         top:182%;
         z-index: 2;
     }
+
+ 
 
 }
 

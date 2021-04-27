@@ -51,13 +51,13 @@ header figure div h3{
 section#about-us{
     background-color:black;
     width: 100%;
-    height: 60rem;
+    height: 55rem;
 }
 
 section#about-us .informacion{
-    background-color:#E6E6E6;
+    background-color:#E6E6E6;  
     width: 70%;
-    height: 55rem;
+    height: 50rem;
     padding: 4rem;
     padding-top: 2rem;
     padding-bottom: 0%;
@@ -77,15 +77,13 @@ section#about-us .informacion h2{
     
 }
 
-section#about-us .informacion div.ctnValores{
-    padding:4% ;
-}
 
 section#about-us .informacion div.valores{
     width: 40%;
-    height: 18rem;
-    margin-left: 8%;
-    display: inline-grid;
+    margin-top: 4%;
+    margin-left: 5% ;
+    margin-right: 2% ;
+    display: inline-block;
     
 }
 
@@ -110,7 +108,12 @@ section#about-us .informacion span{
     cursor: pointer;
     display: block;
     font-size: x-large;
+    margin-top: 6%;
 }
+
+/* section#about-us .informacion span:hover{
+    color:#FCCE00;
+} */
 
 section#about-us .informacion span:after{
     content: url('/img/flecha-hacia-abajo.svg');
@@ -217,12 +220,12 @@ section#services span{
     cursor: pointer;
     display: block;
     font-size: x-large;
-    color: white;
+    color: black;
     margin-top: 6%;
 }
 
 section#services span:hover{
-   color:  #FCCE00;
+   color:  black;
          
 }
 
@@ -230,6 +233,7 @@ section#services span:after{
     content: url('/img/flecha-hacia-abajo.svg');
     display: block;
     width: 3rem;
+  
     margin: auto;
 }
 
@@ -289,6 +293,10 @@ section#contact-us div  img{
 section#contact-us div:nth-child(1){
     background-color: #D9D9D9;
 
+        box-shadow:7px 9px 40px 4px #000000;
+        -moz-box-shadow:7px 9px 40px 4px #000000;
+        -webkit-box-shadow:7px 9px 40px 4px #000000;
+
     width: 60%;
     height: 35rem;
     margin: 0rem 8rem 0rem 2rem;
@@ -330,10 +338,7 @@ section#contact-us div:nth-child(1) button{
     border-radius: 1rem;
 }
 
-section#contact-us div:nth-child(1) button:hover{
-    background-color: #FCCE00 ;
-    color: black;
-}
+
 
 
 
@@ -361,7 +366,7 @@ section#contact-us div:nth-child(1) button:hover{
     }
     
     section#about-us .informacion{
-        height: 50rem;
+        height: 45rem;
         padding: 4rem;
         padding-bottom: 2rem;
         padding-top: 2rem;
@@ -373,14 +378,11 @@ section#contact-us div:nth-child(1) button:hover{
     }
     
     section#services ul li div{
-        left: 17.4rem;
-        height: 18rem;
-        top: 0.5rem;
+        left: 17.8rem;
     }
     
     section#services ul li:nth-child(2) figure{
-        left: 14.3rem;
-        top:2.0rem;
+        left: 14.6rem;
     }
     
     aside figure > div p{
@@ -409,22 +411,12 @@ section#contact-us div:nth-child(1) button:hover{
 
 @media screen and (max-width: 950px){
 
+    section#about-us .informacion{
+        height: 40rem;
+    }
 
     section#about-us {
-        height: 60rem;
-    }
-
-    section#about-us .informacion{
-        height: 53rem;
-    }
-
-    section#about-us .informacion div.valores{
-        margin-top: 3%;
-        
-    }
-
-    section#about-us .informacion span{
-       margin-top: 10%;
+        height: 45rem;
     }
 
     section#services ul{

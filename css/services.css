@@ -24,7 +24,7 @@ section#menu{
     background: #E6E6E6;
     flex-flow: row wrap;
     width: 85%;
-    height: 35rem;
+    height: 45rem;
     z-index: 10;
  
 
@@ -137,10 +137,11 @@ body #scene #left-zone .list li.item input[type="radio"] {
 
 body #scene #left-zone .list li.item input[type="radio"] ~ label {
   display: block;
+  margin: 0rem .5rem .6rem .5rem;
   opacity: 0.5;
-  height: 50px;
+  height: 3rem;
   text-align: center;
-  line-height: 50px;
+  line-height: 1.5rem;
   font-size: x-large;
 }
 
@@ -155,9 +156,8 @@ body #scene #left-zone .list li.item input[type="radio"] ~ label:hover {
 
 body #scene #left-zone .list li.item input[type="radio"] ~ .content {
   position: absolute;
- 
   left: 30.8%;
-  top: -90%;
+  top: -95%;
   width: 68%;
   margin-top: 2%;
   -webkit-animation-duration: 0.75s;
@@ -181,7 +181,7 @@ body #scene #left-zone .list li.item input[type="radio"] ~ .content {
 body #scene #left-zone .list li.item input[type="radio"] ~ .content div.why{
     background-color: #000;
     width: 100%;
-    height: 25rem;
+    height: 28rem;
 }
 
 body #scene #left-zone .list li.item input[type="radio"] ~ .content div.why  img{
@@ -363,7 +363,7 @@ body #scene #right-zone {
 }
 
 .bg1{
-    background-image: url('../img/slider/0.jpeg');
+    background-image: url('../img/slider/0.jpg');
 }
 
 .bg2{
@@ -371,7 +371,7 @@ body #scene #right-zone {
 }
 
 .bg3{
-    background-image: url('../img/slider/2.jpeg');
+    background-image: url('../img/slider/2.jpg');
 }
 
 .bg4{
@@ -379,6 +379,42 @@ body #scene #right-zone {
 }
 
 .bg5{
-    background-image: url('../img/slider//4.jpeg');
+    background-image: url('../img/slider//4.jpg');
 }
 
+@media screen and (max-width: 1279px){
+
+  body #scene #left-zone .list li.item input[type="radio"] ~ .content div.why{
+    background-color: #000;
+    width: 100%;
+    height: 35rem;
+  }
+
+  #slider2 i {
+    position: relative;
+    display: block;
+    width: 50rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+
+}
+
+@media screen and (max-width: 950px){
+
+  body #scene #left-zone .list li.item input[type="radio"] ~ .content div.why{
+    background-color: #000;
+    width: 100%;
+    height: 40rem;
+  }
+
+  #slider2 i {
+    position: relative;
+    display: block;
+    width: 35rem;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+}

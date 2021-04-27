@@ -49,6 +49,7 @@ app = (() => {
         <section id="about-us">
             <div class="informacion">
               <h2>About Us</h2>
+              <div class="ctnValores">
               <div class="valores">
                 <figure>
                   <img src="img/canada.svg" alt="El nuevo concepto de limpieza">
@@ -104,6 +105,7 @@ app = (() => {
                   </figcaption>
                 </figure>
               </div>
+              </div>
               <span onclick="app.displayAboutUs()">See more</span>
             </div>
         </section>
@@ -113,7 +115,7 @@ app = (() => {
             <ul>
                 <li>
                     <figure>
-                      <img src="img/WhatsApp Image 2020-10-28 at 10.36.36 PM.jpeg" alt="El nuevo concepto de limpieza">
+                      <img src="img/tenda.jpg" alt="El nuevo concepto de limpieza">
                     </figure>
                     <div>
                       <h3>Floor waxing</h3>
@@ -137,7 +139,7 @@ app = (() => {
                       </p>
                     </div>
                     <figure>
-                      <img src="img/WhatsApp Image 2020-10-28 at 10.44.03 PM (3).jpeg" alt="El nuevo concepto de limpieza">
+                      <img src="img/daily.jpg" alt="El nuevo concepto de limpieza">
                     </figure>
                 </li>
                 <li>
@@ -180,7 +182,7 @@ app = (() => {
               <img src="img/instagram.png" alt="">
             </div>
             <div>
-              <a id="none" href="https://wa.me/573138087186" target="_blank"  > <img src="img/whatsapp.png" alt=""></a> 
+              <a id="none" href="https://wa.me/19054291474" target="_blank"  > <img src="img/whatsapp.png" alt=""></a> 
             </div>
         </section>
     `);
@@ -226,7 +228,7 @@ app = (() => {
               <label class="label_Floorwaxing" for="radio_Floorwaxing">Floor waxing</label>
               <div class="content ">
                 <div class="why">
-                  <img src="img/waxing.jpeg" alt="">
+                  <img src="img/Waxing.jpg" alt="">
                   <h3>Our work</h3>
                   <p>
                     Many times there is dirt that is impossible to remove with traditional 
@@ -242,7 +244,7 @@ app = (() => {
               <label class="label_Graffitiremoval" for="radio_Graffitiremoval">Graffiti removal</label>
               <div class="content ">
                 <div class="why">
-                  <img src="img/carpet.jpeg" alt="">
+                  <img src="img/carpet.jpg" alt="">
                   <h3>Our work</h3>
                   <p>
                     Jet clean recognizes that there are different reasons why our clients 
@@ -259,7 +261,7 @@ app = (() => {
               <label class="label_Carpetcleaning" for="radio_Carpetcleaning">Carpet cleaning</label>
               <div class="content ">
                 <div class="why">
-                  <img src="img/carpet.jpeg" alt="">
+                  <img src="img/carpet.jpg" alt="">
                   <h3>Our work</h3>
                   <p>
                     Every space is important and should be taken care of. However, 
@@ -276,7 +278,7 @@ app = (() => {
               <label class="label_Windowcleaning" for="radio_Windowcleaning">Window cleaning</label>
               <div class="content ">
                 <div class="why">
-                  <img src="img/window.jpeg" alt="">
+                  <img src="img/window.jpg" alt="">
                   <h3>Our work</h3>
                   <p>
                     Illuminating spaces is not the only job of windows. Providing security, 
@@ -293,7 +295,7 @@ app = (() => {
               <label class="label_Personnellogisticsforcompanies" for="radio_Personnellogisticsforcompanies">Personnel logistics for companies</label>
               <div class="content ">
                 <div class="why">
-                  <img src="img/personel.jpeg" alt="">
+                  <img src="img/maquina.jpg" alt="">
                   <h3>Our work</h3>
                   <p>
                     Managing all aspects of a company can become tedious; activities such as 
@@ -311,7 +313,7 @@ app = (() => {
               <label class="label_Dailynightanddaycleaning24/7" for="radio_Dailynightanddaycleaning24/7">Daily night and day cleaning 24/7</label>
               <div class="content ">
                 <div class="why">
-                  <img src="img/daily.jpeg" alt="">
+                  <img src="img/baño.jpg" alt="">
                   <h3>Our work</h3>
                   <p>
                     Some places need constant cleaning and disinfection for the optimal work of the establishment. 
@@ -397,11 +399,11 @@ app = (() => {
     <div id="slider2">
     
       <i>
-      <input checked type="radio" name="s" class="bg1"  title="Random Picture 1">
-      <input type="radio" name="s" class="bg2" title="Random Picture 2">
-      <input type="radio" name="s" class="bg3" title="Random Picture 3">
-      <input type="radio" name="s" class="bg4" title="Random Picture 4">
-      <input type="radio" name="s" class="bg5" title="Random Picture 5">
+      <input checked type="radio" name="s" class="bg1"  title="">
+      <input type="radio" name="s" class="bg2" title="">
+      <input type="radio" name="s" class="bg3" title="">
+      <input type="radio" name="s" class="bg4" title="">
+      <input type="radio" name="s" class="bg5" title="">
       </i>
 
     </div>
@@ -428,7 +430,7 @@ app = (() => {
             
             <div id="about-us">
                 <figure>
-                  <img src="img/tienda.jpeg" alt="">
+                  <img src="img/tienda.jpg" alt="">
                 </figure>
                 <div>
                     <h3>About Us</h3>
@@ -488,7 +490,7 @@ app = (() => {
                     </div>
 
                     <figure>
-                      <img src="img/persona1.jpg" alt="">
+                      <img src="img/residencia.jpg" alt="">
                     </figure>
                     
                 </li>
@@ -506,7 +508,7 @@ app = (() => {
                         · Technological Institutions</p>
                     </div>
                     <figure>
-                      <img src="img/persona2.jpg" alt="">
+                      <img src="img/libros.jpg" alt="">
                     </figure>
 
                 </li>
@@ -527,7 +529,7 @@ app = (() => {
                         · Administrative areas.</p>
                     </div>
                     <figure >
-                      <img src="img/persona3.jpg" alt="">
+                      <img src="img/factories.jpg" alt="">
                     </figure>
                 </li>
             </ul>
@@ -546,16 +548,10 @@ app = (() => {
                         <p>Codigo Postal LOS1JO</p>
                     </li>
                     <li>
-                        <p>Telefono: +1(289) 440-2188</p>
+                        <p>Telefono: +1(905) 429-1474</p>
                     </li>
                 </ul>
-                
-                <div id="icons">
-                    <figure></figure>
-                    <figure></figure>
-                    <figure></figure>
-                </div>
-                
+                       
             </section>
     </div>`);
   };
@@ -589,7 +585,7 @@ app = (() => {
 
    sendEmail(){
     const formulario = document.getElementById("myForm");
-    emailjs.sendForm('service_ryot351', 'template_827qyud', formulario ).then(function(response) {
+    emailjs.sendForm('service_ihiwo8e', 'template_27zyo02', formulario ).then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
        console.log('FAILED...', error);

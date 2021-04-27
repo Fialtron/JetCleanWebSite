@@ -83,7 +83,6 @@ nav div ul li{
     position: relative;
     padding: 1.8%;
     cursor: pointer;
-  
 }
 
 nav div ul li:hover{
@@ -94,7 +93,6 @@ nav div ul li:hover{
 nav div ul li:hover a{
     color: white !important;
 }
-
 
 nav div ul li a{
     color: black;
@@ -108,7 +106,6 @@ nav div ul li:nth-child(3){
     float: right;
     margin-right: auto;
 }
-
 
 div#social{
     background-color: #191DFF;
@@ -157,7 +154,6 @@ figure{
 }
 
 footer{
-    /*#F5C700 */
     background-color: #FCCE00;
     color: black;
     width: 100%;
@@ -186,7 +182,6 @@ footer div > ul{
     list-style: none;
 }
 
-
 footer div > ul li{
     margin:3%;
 }
@@ -204,14 +199,11 @@ footer div > ul li{
     nav figure#logo {
         left: 40%;
         width: 18%;
-
     }
     
-
     nav div ul {
         top: .3rem;
     }
-
 
     footer div:nth-child(1) {
         margin-left: 10%;
@@ -223,7 +215,6 @@ footer div > ul li{
     nav figure#logo {
         left: 40%;
         width: 20%;
-
     }
 }
 
@@ -234,15 +225,15 @@ footer div > ul li{
         height: 10%;
         position: fixed;
         z-index: 99;
-        
     }
+
     nav div ul {
         top: .5rem;
     }
+
     nav figure#logo {
         left: 42%;
         width: 25%;
-
     }
 
 }
@@ -389,9 +380,7 @@ footer div > ul li{
     }
 
     footer{
-  
         height: 100%;
-     
     }
     
     footer div{
