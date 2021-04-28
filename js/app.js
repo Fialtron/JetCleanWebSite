@@ -538,7 +538,7 @@ app = (() => {
             <section id="findUs">
                 <h1>FIND US</h1>
                 <figure id="map">
-                  <img src="img/mapa.png" alt="">
+                  <img src="img/maps.png" alt="">
                 </figure>
                 <ul>
                     <li>
