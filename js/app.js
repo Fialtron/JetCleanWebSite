@@ -585,10 +585,22 @@ app = (() => {
 
    sendEmail(){
     const formulario = document.getElementById("myForm");
+    var modalOk = document.getElementById("myModalOk");
+    var modalErr = document.getElementById("myModalErr");
     emailjs.sendForm('service_ihiwo8e', 'template_27zyo02', formulario ).then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
+        modalOk.style.display = "block";
+       setTimeout(function(){
+        modalOk.style.display = "none"; 
+      },3000);
+       
     }, function(error) {
        console.log('FAILED...', error);
+       modalErr.style.display = "block";
+       setTimeout(function(){
+        modalErr.style.display = "none";
+      },6000);
+     
     });
 
    }
