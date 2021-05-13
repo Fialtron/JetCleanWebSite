@@ -173,13 +173,9 @@ app = (() => {
                 <input type="text" placeholder="Tell us about your need" name="message">
               </form>
               <button onclick="app.sendEmail()" >Send</button>
-              
             </div>
             <div>
-              <img src="img/facebook.png" alt="">
-            </div>
-            <div>
-              <img src="img/instagram.png" alt="">
+            <a id="none" href="https://www.instagram.com/jetcleanmultiservice/" target="_blank"  > <img src="img/instagram.png" alt=""></a>
             </div>
             <div>
               <a id="none" href="https://wa.me/19054291474" target="_blank"  > <img src="img/whatsapp.png" alt=""></a> 
@@ -538,7 +534,7 @@ app = (() => {
             <section id="findUs">
                 <h1>FIND US</h1>
                 <figure id="map">
-                  <img src="img/maps.png" alt="">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.122268138765!2d-79.113674485009!3d43.227896087846595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3592c9c2ce42b%3A0x4b5073e9abe663d0!2s1679%20Concession%204%20Rd%2C%20Virgil%2C%20ON%20L0S%201T0%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2sco!4v1620882165627!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </figure>
                 <ul>
                     <li>
@@ -554,6 +550,22 @@ app = (() => {
                        
             </section>
     </div>`);
+  };
+
+  const insertCreditsSection = () => {
+    const content = $('#contenido');
+    document.getElementById("currentTransitionStyle").setAttribute("href", "css/credits.css");
+    cleanHTMLTags(content);
+    content.append(`
+      <div class="contenedor" >
+        <div> ig Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+        <div> cana Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+        <div> wp Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+        <div> speed Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div> 24 h Icons made by <a href="" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div> personal   Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      </div>
+    `);
   };
 
   return {
@@ -573,6 +585,11 @@ app = (() => {
       insertAboutUsSection();
     },
 
+    displayCredits:() => {
+      alertSize();
+      insertCreditsSection();
+    },
+
     displayMenu(){
       const menu = document.getElementById("menu_movil");
       let display = menu.style.display;
@@ -581,7 +598,7 @@ app = (() => {
       } else {
           menu.style.display = 'none';
       }
-   },
+    },
 
    sendEmail(){
     const formulario = document.getElementById("myForm");
