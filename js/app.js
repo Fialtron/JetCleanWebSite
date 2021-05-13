@@ -557,13 +557,52 @@ app = (() => {
     document.getElementById("currentTransitionStyle").setAttribute("href", "css/credits.css");
     cleanHTMLTags(content);
     content.append(`
-      <div class="contenedor" >
-        <div> ig Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-        <div> cana Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-        <div> wp Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-        <div> speed Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <div> 24 h Icons made by <a href="" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <div> personal   Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <div class="creditosContenedor">
+        <ul class="creditosUl">
+          <li>
+            <figure>
+              <img src="img/instagram.png" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+
+          </li>
+          <li>
+            <figure>
+              <img src="img/canada.svg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/whatsapp.png" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/velocimetro.svg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/24-horas.svg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>Icons made by <a href="" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/equipo-de-limpieza.svg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          </li>
+         
+ 
+
+
+
+        </ul>
+
       </div>
     `);
   };
@@ -609,7 +648,7 @@ app = (() => {
         modalOk.style.display = "block";
        setTimeout(function(){
         modalOk.style.display = "none"; 
-      },3000);
+      },6000);
        
     }, function(error) {
        console.log('FAILED...', error);
