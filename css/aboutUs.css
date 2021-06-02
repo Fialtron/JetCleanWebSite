@@ -410,6 +410,18 @@ section#findUs p{
 }
 
 @media screen and (max-width: 767px){
+    #mainGrid {
+        padding: 28% 5% 10% 5%;
+    }
+
+    #banner{
+        width: 70%;
+        padding: 0% 2% 0% 2%;
+    }
+
+    #about-us{
+        height: 38rem;
+    }
 
     .col{
         width: 10%;
@@ -428,8 +440,117 @@ section#findUs p{
         top:182%;
         z-index: 2;
     }
+}
 
- 
+
+@media (max-width: 567px){
+
+    #mainGrid {
+        padding: 35% 5% 10% 5%;
+    }
+
+    #banner{
+        width: 80%;
+        padding: 0% 2% 0% 2%;
+    }
+
+    #about-us{
+        height: 42rem;
+    }
+
+    #about-us figure img{
+        position: relative;
+        left: -85%;
+    }
+
+    #col2{
+        top:150%;
+        
+    }
+
+    #col3{
+        height: 19rem;
+        top:153%;
+    }
+
+    #col4{
+        height: 22rem;
+        top:192%;
+        z-index: 2;
+    }
+
+    #map{
+    
+        width: 90%;
+      
+    }
+
+    section#findUs ul{  
+        left: -22%;
+    }
+
+}
+
+@media (max-width: 467px){
+
+    #mainGrid {
+        padding: 45% 5% 10% 5%;
+    }
+
+    #banner{
+        width: 90%;
+        padding: 0% 2% 0% 2%;
+    }
+
+    #banner h3{
+        font-size: xx-large;
+    }
+
+    #about-us{
+        height: 52rem;
+    }
+
+    #about-us figure img{
+        position: relative;
+        left: -185%;
+    }
+
+    #col2{
+        top:170%;
+        
+    }
+
+    #col3{
+        height: 19rem;
+        top:173%;
+    }
+
+    #col4{
+        height: 22rem;
+        top:212%;
+        z-index: 2;
+    }
+
+    section#findUs ul{  
+        left: -18%;
+    }
+}
+
+@media (max-width: 367px){
+    
+    #mainGrid {
+        padding: 65% 5% 10% 5%;
+    }
+    
+    #about-us{
+        height: 68rem;
+    }
+
+    #col4{
+        height: 38rem;
+        top:212%;
+        z-index: 2;
+    }
 
 }
 

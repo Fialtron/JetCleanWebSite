@@ -158,7 +158,8 @@ footer{
     color: black;
     width: 100%;
     height: 15rem;
-    padding-top: 2rem;
+    padding: 2rem 0rem 5rem 0rem;
+  
 }
 
 footer div{
@@ -281,7 +282,7 @@ footer div > ul li{
     }
 
     nav > figure span{
-        color: white;
+        color: black;
         position: relative;
         top: 25%;
         font-size: 2rem;
@@ -394,6 +395,13 @@ footer div > ul li{
 
     
 
+}
+
+@media (max-width: 667px){
+    nav figure#logo{
+        width: 35%;
+        left:32%;
+    }
 }
 
 @media (max-width: 567px){
