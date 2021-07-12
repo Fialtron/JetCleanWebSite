@@ -388,6 +388,148 @@ app = (() => {
     </section>
   
 
+
+      <section id="menu_movil">
+        <ul>
+          <li>
+              <figure>
+                <img src="img/tenda.jpg" alt="El nuevo concepto de limpieza">
+              </figure>
+              <div>
+                <h3>Floor waxing</h3>
+                <p>
+                  Many times there is dirt that is impossible to remove with 
+                  traditional methods. Therefore, Jet Clean uses the power of 
+                  wash technology and efficiency to eliminate dirt and stains 
+                  in spaces that seem impossible to clean.
+                </p>
+              </div>
+          </li>
+          <li>
+              <div>
+                <h3>Daily night and day cleaning 24/7 </h3>
+                <p>
+                  Some places need constant cleaning and disinfection for the 
+                  optimal work of the establishment. Also, the situation generated 
+                  by the COVID-19 makes establishments that did not have the necessary 
+                  process comply with biosecurity measures. Our disinfection service 
+                  has all the quality standards to meet those needs.
+                </p>
+              </div>
+              <figure>
+                <img src="img/daily.jpg" alt="El nuevo concepto de limpieza">
+              </figure>
+          </li>
+          <li>
+              <figure>
+                <img src="img/WhatsApp Image 2020-10-28 at 10.40.37 PM.jpeg" alt="El nuevo concepto de limpieza">
+              </figure>
+              <div>
+                <h3>Snow removal and salting prevention</h3>
+                <p>
+                  The weather such as winter can hinder people from moving around. 
+                  As a result delays or accidents can happen. With this in mind, 
+                  Jet Clean team provides snow removal services as well to lessen 
+                  the weather complications. 
+                </p>
+              </div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/snow.png" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>
+              <h3>Summer time landscaping services</h3>
+              <p>
+                We can customize your space to meet your needs. We would be happy to work with 
+                you to achieve your dream. Our experienced team have extensive industry knowledge 
+                and offer a variety of personalized services. We provide innovative landscaping 
+                solutions in a personal, cost effective and timely manner. We work very closely 
+                with our clients and are committed to quality work. Our mission is to provide our 
+                clients with the highest landscaping standards in the industry and enhance the 
+                value of our client’s homes, by providing innovative landscaping solutions with 
+                our experts in the field.  
+              </p>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/maquina.jpg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>
+              <h3>Personnel logistics for companies</h3>
+              <p>
+                Managing all aspects of a company can become tedious; activities such as 
+                big events, simultaneous meetings, and services in complex schedules make it 
+                complicated to manage the company. For this reason, Jet Clean offers its 
+                service of personnel logistics management, so each client can focus and fulfill 
+                all scheduled events without losing the quality of its service. 
+              </p>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/window.jpg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>
+              <h3>Window cleaning</h3>
+              <p>
+                Illuminating spaces is not the only job of windows. Providing security, 
+                confidence, and style are too. These reasons are enough to keep them clean 
+                and in good shape. Jet clean has the right products and cleaning processes 
+                for your windows.  
+              </p>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/carpet.jpg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>
+              <h3>Carpet cleaning</h3>
+              <p>
+                Every space is important and should be taken care of. However, 
+                carpets need special care and cleaning. For this reason, Jet Clean 
+                has the technology and specialized personnel to clean and appropriately 
+                care for your carpets.
+              </p>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/carpet.jpg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>
+              <h3>Graffiti removal</h3>
+              <p>
+              Jet clean recognizes that there are different reasons why our clients 
+              might take this service, to make new graffiti, paint a mural, or free 
+              up space. Regardless of any reason, jet clean offers graffiti removal 
+              services for each client to decide what to do next. 
+              </p>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <img src="img/wash.jpeg" alt="El nuevo concepto de limpieza">
+            </figure>
+            <div>
+              <h3>Power wash</h3>
+              <p>
+              Many times there is dirt that is impossible to remove with 
+              traditional methods. Therefore, Jet Clean uses the power wash 
+              technology and efficiency to eliminate dirt and stains in spaces 
+              that seem impossible to clean.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+
+
+    
+
     <div id="slider">
       <h2>Results</h2> 
 

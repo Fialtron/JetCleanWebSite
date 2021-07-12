@@ -406,7 +406,7 @@ footer div > ul li{
 
 @media (max-width: 567px){
     nav {
-        background-color:  purple;
+        background-color:  #FCCE00;
     }
 
     nav figure#logo{
@@ -424,12 +424,17 @@ footer div > ul li{
         margin-left: 20% ;
     }
 
+    .modal-content {
+        margin: 15% auto; 
+        width: 90%;
+        height: 60%; 
+      }
 
 }
 
 @media (max-width: 467px){
     nav {
-        background-color:  peru;
+        background-color:  #FCCE00;
     }
 
     nav figure#logo{
@@ -437,19 +442,22 @@ footer div > ul li{
         left:28%;
     }
 
+    .modal-content {
+        margin: 15% auto; 
+        width: 90%;
+        height: 40%; 
+      }
 
 }
 
 @media (max-width: 367px){
     nav {
-        background-color: plum;
+        background-color: #FCCE00;
     }
 
     nav figure#logo{
         width: 60%;
         left:25%;
     }
-
-
 }
 
