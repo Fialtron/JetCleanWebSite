@@ -178,7 +178,7 @@ app = (() => {
             <a id="none" href="https://www.instagram.com/jetcleanmultiservice/" target="_blank"  > <img src="img/instagram.png" alt=""></a>
             </div>
             <div>
-              <a id="none" href="https://wa.me/19054291474" target="_blank"  > <img src="img/whatsapp.png" alt=""></a> 
+              <a id="none" href="https://wa.me/13658896811" target="_blank"  > <img src="img/whatsapp.png" alt=""></a> 
             </div>
         </section>
     `);
@@ -676,17 +676,19 @@ app = (() => {
             <section id="findUs">
                 <h1>FIND US</h1>
                 <figure id="map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.122268138765!2d-79.113674485009!3d43.227896087846595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3592c9c2ce42b%3A0x4b5073e9abe663d0!2s1679%20Concession%204%20Rd%2C%20Virgil%2C%20ON%20L0S%201T0%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2sco!4v1620882165627!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.506987063547!2d-79.09156168452164!3d43.05180357914651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d343e9bba276d5%3A0x4d8973375156dac1!2s5850%20Don%20Murie%20St%2C%20Niagara%20Falls%2C%20ON%20L2E%206X8%2C%20Canad%C3%A1!5e0!3m2!1ses!2sco!4v1645500941936!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </figure>
                 <ul>
                     <li>
-                        <p>Dirección: 1679 conssesion 4 Road Virgil</p>
+                        <p>Dirección: 5850 Don Murie St
+                        Niagara Falls ON L2G 0B3
+                        Canada</p>
                     </li>
                     <li>
-                        <p>Codigo Postal LOS1JO</p>
+                        <p>Codigo Postal L2G 0B3</p>
                     </li>
                     <li>
-                        <p>Telefono: +1(905) 429-1474</p>
+                        <p>Telefono: +1 (365) 889-6811</p>
                     </li>
                 </ul>
                        
